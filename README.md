@@ -3,95 +3,95 @@
 
 # **Cheat-Sheet git für Hyperion.ng** 
 
-Ich gehe von einem frischen Raspbian aus. Mit HyperBian funktionieren die Anleitungen unter Umständen nicht. 
-
-Innerhalb eines Abschnitts, ist das Thema komplex zu simpel, bzw schwer zu leicht gegliedert. 
-
-Abschnitt I. entspricht CompileHowto.md. 
+> Ich gehe von einem frischen Raspbian aus. Mit HyperBian funktionieren die Anleitungen unter Umständen nicht. 
+> 
+> Innerhalb eines Abschnitts, ist das Thema komplex zu simpel, bzw schwer zu leicht gegliedert. 
+> 
+> Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem). 
 <br />
 <br />
 <br />
-Inhalt 
+# Inhalt 
 <br />
 <br />
 <br />
-I Installation 
+# I. Installation 
 
-I. A. 1. Abhängigkeiten 
+  ## I. A. 1. Abhängigkeiten 
 
-I. A. 2. Download 
+## I. A. 2. Download 
 
-I. A. 3. Kompilieren
+## I. A. 3. Kompilieren
 
-I. B. Installation eines. deb (siehe II. B.)
+## I. B. Installation eines. deb (siehe II. B.)
 <br />
 <br />
 <br />
-II. Frühere Version installieren 
+# II. Frühere Version installieren 
 
-II. A. 1. Abhängigkeiten (siehe I. A) 
+## II. A. 1. Abhängigkeiten (siehe I. A) 
 
-II. A. 2. Download 
+## II. A. 2. Download 
 
-II. A. 3. Kompilieren (siehe I. C) 
+## II. A. 3. Kompilieren (siehe I. C) 
 
-II. B. 1. Installation eines. deb
+## II. B. 1. Installation eines. deb
 
-II. B. 2. Deinstallation 
+## II. B. 2. Deinstallation 
 <br />
 <br />
 <br />
-III Neues Feature/Bugfix vorab installieren 
+# III. Neues Feature/Bugfix vorab installieren 
 
-III. A. Pull Requests und Commits
+## III. A. Pull Requests und Commits
 
-III. B. Pull Requests 
+## III. B. Pull Requests 
 
-III. B. 1. Pull Requests vom Server holen
+## III. B. 1. Pull Requests vom Server holen
 
-III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C) 
+## III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C) 
 
-III. B. 3. Rückgängig machen
+## III. B. 3. Rückgängig machen
 
-III. C. Einfacher per Skript
+## III. C. Einfacher per Skript
 <br />
 <br />
 <br />
-IV. Updates 
+# IV. Updates 
 
-IV. A. Update in Einzelschritten 
+## IV. A. Update in Einzelschritten 
 
-IV. A. 1. Die aktuellen Commits holen (Erklärung Commit siehe III. A) 
+## IV. A. 1. Die aktuellen Commits holen (Erklärung Commit siehe III. A) 
 
-IV. A. 2. Commits und Repository zusammenführen
+## IV. A. 2. Commits und Repository zusammenführen
 
-IV. A. 3. Kompilieren (siehe I.C)
+## IV. A. 3. Kompilieren (siehe I.C)
 
-IV. B.    Update in einem Schritt und Kompilieren (Kompilieren siehe I. C)
+## IV. B. Update in einem Schritt und Kompilieren (Kompilieren siehe I. C)
  
-IV. C      Alternativen 
+##IV. C. Alternativen 
 <br />
 <br />
 <br />
-V. Rückschritte (Undo) 
+# V. Rückschritte (Undo) 
 
-V. A. Commit per Hash identifizieren
+## V. A. Commit per Hash identifizieren
 
-V. B. Zum Commit/Hash springen
+## V. B. Zum Commit/Hash springen
 
-V. C. Kompilieren (siehe I. C) 
+## V. C. Kompilieren (siehe I. C) 
 <br />
 <br />
 <br />
-VI. Als Systemd einrichten
+# VI. Als Systemd einrichten
 
-VI. A. Systemd Datei einrichten
+## VI. A. Systemd Datei einrichten
 
-VI. A. 1. hyperiond@pi.service
+## VI. A. 1. hyperiond\@pi.service
 
-VI. A. 2. hyperiond@.service
+## VI. A. 2. hyperiond\@.service
 
-VI. B. Service starten
+## VI. B. Service starten
 <br />
 <br />
 <br />
@@ -132,7 +132,9 @@ Die nächsten 2 Befehle kompilieren Hyperion:
 <pre><code>sudo cmake -DCMAKE_BUILD_TYPE=Release ..
 sudo make -j $(nproc)</code></pre>
 
-Hyperion ist jetzt funktionsfähig. Allerdings muss man hyperiond im Verzeichnis ausführen hier 
+Hyperion ist jetzt funktionsfähig. 
+
+Allerdings muss man hyperiond im Verzeichnis ausführen hier 
 `./home/pi/hyperion/build/bin/hyperiond`
 Hyperion läuft nun in der ssh Session und wird beendet, wenn die Session geschlossen wird. 
 Wenn Hyperion im Hintergrund weiterlaufen soll `./home/pi/hyperion/build/hyperiond &`. 
@@ -299,20 +301,20 @@ Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beisp
 
 <pre><code>sudo git checkout 86h75f</code></pre>
 
-V. C. Kompilieren
+## **V. C. Kompilieren**
 
 Die Befehle ab Kompilieren ausführen (siehe I. C). Es wird bis zum Commit installiert. 
 
 
-VI. Systemd einrichten
+# **VI. Systemd einrichten**
 
 Hyperion wird bei Systemstart als Service im Hintergrund ausgeführt. 
 
-VI. A. Systemd Datei anlegen
+# **VI. A. Systemd Datei anlegen**
 
 Zuvor mit `sudo raspi-config` autologin aktivieren für den User pi.
 
-VI. A. 1. hyperiond@pi.service
+## **VI. A. 1. hyperiond\@pi.service**
 
 <pre><code>sudo nano /etc/systemd/system/multi-user.target.wants/hyperiond@pi.service</code></pre>
 
@@ -334,7 +336,7 @@ RestartSec=2
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-VI. A. 2. hyperiond@.service
+## **VI. A. 2. hyperiond\@.service**
 
 <pre><code>sudo nano /etc/systemd/system/hyperiond@.service</code></pre>
 
@@ -356,7 +358,7 @@ RestartSec=2
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-VI. B. Service starten
+## **VI. B. Service starten**
 
 <pre><code>sudo systemctl daemon-reload
 sudo systemctl enable hyperiond@pi.service
