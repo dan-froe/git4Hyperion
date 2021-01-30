@@ -115,7 +115,7 @@ und
 
 ## **I. A. 2. Download des Repository**
 
-Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "**hyperion**" legt das Verzeichnis fest. 
+Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperion" legt das Verzeichnis fest. 
 
 <pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
 
@@ -160,8 +160,8 @@ Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten 
 
 Ich gehe von einem frisch geflashten Image aus. 
 Wir starten dann wieder mit "git clone". Alpha 7 ist die Version, die ich installieren will. Die Installation geht gemäß letztem Befehl wieder in das Verzeichnis "Hyperion". 
-Hinzu kommt #0000ff`--branch XY` . XY ist der Tag des [Release](https://github.com/hyperion-project/hyperion.ng/releases). 
-Ich möchte Alpha.8, daher #0000ff`--branch 2.0.0-alpha.8`
+Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hyperion-project/hyperion.ng/releases). 
+Ich möchte Alpha.8, daher `--branch 2.0.0-alpha.8`
 
 <pre><code>sudo git clone --branch 2.0.0-alpha.8 
 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
@@ -207,9 +207,9 @@ In das lokale Repository wechseln.
 
 <pre><code>cd ~/hyperion</code></pre>
 
-Nun holen wir uns die Informationen für PR #0000ff1117. Der Befehl `pull/#0000ffXXX/head:#00ff00NAME` muß angepasst werden. #0000ffXXX entspricht der Nummer des PR. Mit dem Abschnitt head:#00ff00NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springen.
+Nun holen wir uns die Informationen für PR **1117**. Der Befehl `pull/XXX/head:NAME` muß angepasst werden. XXX entspricht der Nummer des PR. Mit dem Abschnitt head:NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springen.
 
-<pre><code>sudo git fetch origin pull/#0000ff1117/head:#00ff00pr1117</code></pre>
+<pre><code>sudo git fetch origin pull/#0000ff1117/head:pr1117</code></pre>
 
 ## **III. B. 2. Stempel laden und Kompilieren** 
 
@@ -227,11 +227,11 @@ sudo git checkout master</code></pre>
 ## **III. C. Einfache Methode per Skript**
 
 Der PR kann parallel zu einer Hyperion Installation installiert werden. 
-Wir benötigen wieder die Nummer des PR, zB #00ff00142. Die Letzte Stelle des Befehls ist die gewünschte Nummer des PR. 
+Wir benötigen wieder die Nummer des PR, zB 142. Die Letzte Stelle des Befehls ist die gewünschte Nummer des PR. 
 
-<pre><code>sudo wget -qO- https://gist.githubusercontent.com/Paulchen-Panther/a038cb3df85159a455bcedd2cfa9e75d/raw/f9d599a17e5478dfdbdf3641945ce4fae9a8c481/PR_Hyperion.sh | bash -s #00ff00142</code></pre>
+<pre><code>sudo wget -qO- https://gist.githubusercontent.com/Paulchen-Panther/a038cb3df85159a455bcedd2cfa9e75d/raw/f9d599a17e5478dfdbdf3641945ce4fae9a8c481/PR_Hyperion.sh | bash -s 142</code></pre>
 
-Das PR ist nun unter `/home/pi/hyperion_pr#00ff00NUMMER` angelegt, hier `/home/pi/hyperion_pr142`, dort das Skript `./ #00ff00prNUMMER.sh` ausführen. 
+Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyperion_pr142`, dort das Skript `./prNUMMER.sh` ausführen. 
 
 
 # **IV Updates**
@@ -254,11 +254,11 @@ Wie können nun die Updates mit unserem lokalen Repository zusammenführen.
 
 Anstatt FETCH_HEAD kann man auch ein Commit Hash verwenden und 
 
-IV. A. 3. Installation 
+## **IV. A. 3. Installation** 
 
 … führen die Befehle ab kompilieren aus.
 
-IV. B. Update in einem Schritt 
+## **IV. B. Update in einem Schritt** 
 
 Alles auf einmal, die Commits holen und zusammenführen:
 
@@ -266,7 +266,7 @@ Alles auf einmal, die Commits holen und zusammenführen:
 
 Dann wieder kompilieren (I. C.). 
 
-IV. C. Alternativen
+## **IV. C. Alternativen**
 
 Die Installation unter I. bzw mit 
 
@@ -281,11 +281,11 @@ Man kann entweder das Verzeichnis umbenennen, zB
 oder bei Methode I. das Repository Verzeichnis ändern (siehe I. B). 
 
 
-V. Rückschritte (Undo) 
+# **V. Rückschritte (Undo)** 
 
 Zu Bestimmten Commits vor oder zurück gehen. 
 
-V. A. Commit per Hash identifizieren 
+## **V. A. Commit per Hash identifizieren** 
 
 Um zu einem bestimmten Commit (siehe III. A) zurück zu gehe, brauchen wir den Hash (ID des Commit). Um den Hash der Commits anzusehen:
 
@@ -293,9 +293,9 @@ Um zu einem bestimmten Commit (siehe III. A) zurück zu gehe, brauchen wir den H
 
 Die lange Buchstaben und Zahlenreihe sind der Hash. 
 
-V. B. Zum Commit/Hash springen 
+## **V. B. Zum Commit/Hash springen** 
 
-Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beispielsweise, Hash "86h75fz78865tg6zh7z687766z" 
+Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beispielsweise, Hash "**86h75f**z78865tg6zh7z687766z". 
 
 <pre><code>sudo git checkout 86h75f</code></pre>
 
