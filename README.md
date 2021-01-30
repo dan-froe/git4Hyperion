@@ -7,23 +7,17 @@
 > 
 > Innerhalb eines Abschnitts, ist das Thema komplex zu simpel, bzw schwer zu leicht gegliedert. 
 > 
-> Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem). 
-<br />
-<br />
-<br />
-**Inhalt**
-<br />
-<br />
-<br />
+> Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem). <br /><br /><br />
+**Inhalt**<br /><br /><br />
 **I. Installation**
 
 **I. A. 1. Abhängigkeiten** 
 
 **I. A. 2. Download** 
 
-## I. A. 3. Kompilieren
+**I. A. 3. Kompilieren**
 
-## I. B. Installation eines. deb (siehe II. B.)
+**I. B. Installation eines. deb (siehe II. B.)**9
 <br />
 <br />
 <br />
