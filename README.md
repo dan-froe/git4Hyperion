@@ -14,48 +14,76 @@ Abschnitt I. entspricht CompileHowto.md.
 Inhalt 
 
 I Installation 
-I. A. 1. Abhängigkeiten 
-I. A. 2. Download 
-I. A. 3. Kompilieren
-I. B. Installation eines. deb (siehe II. B.)  
 
-II Frühere Version installieren 
+I. A. 1. Abhängigkeiten 
+
+I. A. 2. Download 
+
+I. A. 3. Kompilieren
+
+I. B. Installation eines. deb (siehe II. B.)
+
+
+II. Frühere Version installieren 
+
 II. A. 1. Abhängigkeiten (siehe I. A) 
+
 II. A. 2. Download 
+
 II. A. 3. Kompilieren (siehe I. C) 
+
 II. B. 1. Installation eines. deb
+
 II. B. 2. Deinstallation 
 
+
 III Neues Feature/Bugfix vorab installieren 
+
 III. A. Pull Requests und Commits
+
 III. B. Pull Requests 
+
 III. B. 1. Pull Requests vom Server holen
-III. B. 2. Stempel (PR) laden und 
-             Kompilieren (Kompilieren siehe I. 
-             C) 
+
+III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C) 
+
 III. B. 3. Rückgängig machen
+
 III. C. Einfacher per Skript
 
+
 IV. Updates 
-IV. A.     Update in Einzelschritten 
-IV. A. 1. Die aktuellen Commits holen 
-             (Erklärung Commit siehe III. A) 
-IV. A. 2. Commits und Repository 
-             zusammenführen
+
+IV. A. Update in Einzelschritten 
+
+IV. A. 1. Die aktuellen Commits holen (Erklärung Commit siehe III. A) 
+
+IV. A. 2. Commits und Repository zusammenführen
+
 IV. A. 3. Kompilieren (siehe I.C)
-IV. B.     Update in einem Schritt und       
-             Kompilieren (Kompilieren siehe I. C) 
+
+IV. B.    Update in einem Schritt und Kompilieren (Kompilieren siehe I. C)
+ 
 IV. C      Alternativen 
 
-V Rückschritte (Undo) 
+
+V. Rückschritte (Undo) 
+
 V. A. Commit per Hash identifizieren
+
 V. B. Zum Commit/Hash springen
+
 V. C. Kompilieren (siehe I. C) 
 
+
 VI. Als Systemd einrichten
+
 VI. A. Systemd Datei einrichten
+
 VI. A. 1. hyperiond@pi.service
+
 VI. A. 2. hyperiond@.service
+
 VI. B. Service starten
 
 
