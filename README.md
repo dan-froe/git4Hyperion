@@ -95,7 +95,7 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 
 ## **I. B. Installation eines .deb**
 
-Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode I. A. installiert immer die neueste Version. 
+Die Anleitung befindet sich unter II. B.). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode I. A. installiert immer die neueste Version. 
 Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb. 
 
 
