@@ -99,24 +99,24 @@ VI. B. Service starten
 <br />
 <br />
 <br />
-I. Installation
+# **I. Installation**
 
 Standard Hyperion NG Installation per Einzelbefehle für Raspbian. Zuerst System updaten
 
 <pre><code>sudo apt update
 sudo apt full-upgrade</code></pre>
 
-I. A. 1. Abhängigkeiten
+## **I. A. 1. Abhängigkeiten**
 
 In der CompileHowto.md die Befehle unter folgenden Punkten ausführen. Es werden die Abhängigkeiten installiert. 
 
-https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem
+[CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem)
 
 "Debian/Ubuntu/Win10LinuxSubsystem" 
 und
 "on RPI you need the videocore IV headers" 
 
-I. A. 2. Download des Repository
+## **I. A. 2. Download des Repository**
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperion" legt das Verzeichnis fest. 
 
