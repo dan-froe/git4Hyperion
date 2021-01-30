@@ -209,7 +209,7 @@ In das lokale Repository wechseln.
 
 Nun holen wir uns die Informationen für PR **1117**. Der Befehl `pull/XXX/head:NAME` muß angepasst werden. XXX entspricht der Nummer des PR. Mit dem Abschnitt head:NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springen.
 
-<pre><code>sudo git fetch origin pull/#0000ff1117/head:pr1117</code></pre>
+<pre><code>sudo git fetch origin pull/1117/head:pr1117</code></pre>
 
 ## **III. B. 2. Stempel laden und Kompilieren** 
 
