@@ -115,9 +115,9 @@ und
 
 ## **I. A. 2. Download des Repository**
 
-Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "#0000ffhyperion" legt das Verzeichnis fest. 
+Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "**hyperion**" legt das Verzeichnis fest. 
 
-<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git #0000ffhyperion</code></pre>
+<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
 
 ## **I. A. 3. Kompilieren**
 
