@@ -9,10 +9,13 @@ Ich gehe von einem frischen Raspbian aus. Mit HyperBian funktionieren die Anleit
 Innerhalb eines Abschnitts, ist das Thema komplex zu simpel, bzw schwer zu leicht gegliedert. 
 
 Abschnitt I. entspricht CompileHowto.md. 
-
-
+<br />
+<br />
+<br />
 Inhalt 
-
+<br />
+<br />
+<br />
 I Installation 
 
 I. A. 1. Abhängigkeiten 
@@ -22,8 +25,9 @@ I. A. 2. Download
 I. A. 3. Kompilieren
 
 I. B. Installation eines. deb (siehe II. B.)
-
-
+<br />
+<br />
+<br />
 II. Frühere Version installieren 
 
 II. A. 1. Abhängigkeiten (siehe I. A) 
@@ -35,8 +39,9 @@ II. A. 3. Kompilieren (siehe I. C)
 II. B. 1. Installation eines. deb
 
 II. B. 2. Deinstallation 
-
-
+<br />
+<br />
+<br />
 III Neues Feature/Bugfix vorab installieren 
 
 III. A. Pull Requests und Commits
@@ -50,8 +55,9 @@ III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C)
 III. B. 3. Rückgängig machen
 
 III. C. Einfacher per Skript
-
-
+<br />
+<br />
+<br />
 IV. Updates 
 
 IV. A. Update in Einzelschritten 
@@ -65,8 +71,9 @@ IV. A. 3. Kompilieren (siehe I.C)
 IV. B.    Update in einem Schritt und Kompilieren (Kompilieren siehe I. C)
  
 IV. C      Alternativen 
-
-
+<br />
+<br />
+<br />
 V. Rückschritte (Undo) 
 
 V. A. Commit per Hash identifizieren
@@ -74,8 +81,9 @@ V. A. Commit per Hash identifizieren
 V. B. Zum Commit/Hash springen
 
 V. C. Kompilieren (siehe I. C) 
-
-
+<br />
+<br />
+<br />
 VI. Als Systemd einrichten
 
 VI. A. Systemd Datei einrichten
@@ -85,16 +93,18 @@ VI. A. 1. hyperiond@pi.service
 VI. A. 2. hyperiond@.service
 
 VI. B. Service starten
-
-
-
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 I. Installation
 
 Standard Hyperion NG Installation per Einzelbefehle für Raspbian. Zuerst System updaten
 
-sudo apt update
-sudo apt full-upgrade
+<pre><code>sudo apt update
+sudo apt full-upgrade</code></pre>
 
 I. A. 1. Abhängigkeiten
 
