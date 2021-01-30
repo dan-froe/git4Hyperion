@@ -43,7 +43,7 @@
 **VI. Als Systemd einrichten** <br />
 **VI. A. Systemd Datei einrichten**  <br />
 **VI. A. 1. hyperiond@&#8203;pi.service**  <br />
-**VI. A. 2. hyperiond@#&#8203;.service** <br />
+**VI. A. 2. hyperiond@&#8203;.service** <br />
 **VI. B. Service starten** <br /> <br /> <br /> <br /> <br /> <br /> 
 # **I. Installation**
 
