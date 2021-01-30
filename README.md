@@ -15,39 +15,36 @@
 **I. A. 1. Abhängigkeiten** <br />
 **I. A. 2. Download** <br />
 **I. A. 3. Kompilieren** <br />
-**I. B. Installation eines. deb (siehe II. B.)** <br /><br /><br />
+**I. B. Installation eines. deb (siehe II. B.)** <br /> <br /> 
 **II. Frühere Version installieren** <br />
 **II. A. 1. Abhängigkeiten (siehe I. A)** <br />
 **II. A. 2. Download**  <br />
 **II. A. 3. Kompilieren (siehe I. C)**  <br />
 **II. B. 1. Installation eines. deb** <br />
-**II. B. 2. Deinstallation** <br /><br /><br />
+**II. B. 2. Deinstallation** <br /> <br /> 
 **III. Neues Feature/Bugfix vorab installieren** <br />
 **III. A. Pull Requests und Commits** <br />
 **III. B. Pull Requests** <br />
 **III. B. 1. Pull Requests vom Server holen** <br />
-III. B. 2. **Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C)** <br />
+**III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C)** <br />
 **III. B. 3. Rückgängig machen** <br />
-**III. C. Einfacher per Skript** <br />
-<br />
-<br />
-<br />
-**IV. Updates**  <br />
+**III. C. Einfacher per Skript**
+**IV. Updates** <br />
 **IV. A. Update in Einzelschritten**  <br />
 **IV. A. 1. Die aktuellen Commits holen (Erklärung Commit siehe III. A)** <br />
 **IV. A. 2. Commits und Repository zusammenführen** <br />
 **IV. A. 3. Kompilieren (siehe I.C)** <br />
 **IV. B. Update in einem Schritt und Kompilieren (Kompilieren siehe I. C)** <br />
- **IV. C. Alternativen** <br /><br /><br />
+**IV. C. Alternativen** <br /> <br /> 
 **V. Rückschritte (Undo)** <br />
 **V. A. Commit per Hash identifizieren** <br />
 **V. B. Zum Commit/Hash springen** <br />
-**V. C. Kompilieren (siehe I. C)** <br /><br /><br />
+**V. C. Kompilieren (siehe I. C)** <br /> <br /> 
 **VI. Als Systemd einrichten** <br />
 **VI. A. Systemd Datei einrichten**  <br />
 **VI. A. 1. hyperiond\@pi.service**  <br />
 **VI. A. 2. hyperiond\@.service** <br />
-**VI. B. Service starten** <br /><br /><br /><br /><br /><br />
+**VI. B. Service starten** <br /> <br /> <br /> <br /> <br /> <br /> 
 # **I. Installation**
 
 Standard Hyperion NG Installation per Einzelbefehle für Raspbian. Zuerst System updaten
