@@ -28,7 +28,7 @@
 **III. B. 1. Pull Requests vom Server holen** <br />
 **III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C)** <br />
 **III. B. 3. Rückgängig machen** <br />
-**III. C. Einfacher per Skript**
+**III. C. Einfacher per Skript** <br /> <br /> 
 **IV. Updates** <br />
 **IV. A. Update in Einzelschritten**  <br />
 **IV. A. 1. Die aktuellen Commits holen (Erklärung Commit siehe III. A)** <br />
@@ -42,8 +42,8 @@
 **V. C. Kompilieren (siehe I. C)** <br /> <br /> 
 **VI. Als Systemd einrichten** <br />
 **VI. A. Systemd Datei einrichten**  <br />
-**VI. A. 1. hyperiond\@pi.service**  <br />
-**VI. A. 2. hyperiond\@.service** <br />
+**VI. A. 1. hyperiond@&#8203;pi.service**  <br />
+**VI. A. 2. hyperiond@#&#8203;.service** <br />
 **VI. B. Service starten** <br /> <br /> <br /> <br /> <br /> <br /> 
 # **I. Installation**
 
