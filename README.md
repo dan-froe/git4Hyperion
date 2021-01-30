@@ -120,25 +120,25 @@ und
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperion" legt das Verzeichnis fest. 
 
-sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion
+`sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion`
 
-I. A. 3. Kompilieren
+## **I. A. 3. Kompilieren**
 
 Als nächstes wechseln wir in das erstellte Verzeichnis und erstellen dann ein weiteres, "build". Danach nach "build" wechseln. 
 
-cd hyperion
+`cd hyperion
 sudo mkdir build
-cd build
+cd build`
 
 Die nächsten 2 Befehle kompilieren Hyperion:
 
-sudo cmake -DCMAKE_BUILD_TYPE=Release ..
-sudo make -j $(nproc)
+`sudo cmake -DCMAKE_BUILD_TYPE=Release ..
+sudo make -j $(nproc)`
 
 Hyperion ist jetzt funktionsfähig. Allerdings muss man hyperiond im Verzeichnis ausführen hier 
-"./home/pi/hyperion/build/bin/hyperiond"
+> ./home/pi/hyperion/build/bin/hyperiond
 Hyperion läuft nun in der ssh Session und wird beendet, wenn die Session geschlossen wird. 
-Wenn Hyperion im Hintergrund weiterlaufen soll "./home/pi/hyperion/build/hyperiond &". 
+Wenn Hyperion im Hintergrund weiterlaufen soll `./home/pi/hyperion/build/hyperiond &`. 
 
 Der letzte Befehl installiert Hyperion in das System und ist nun ohne Verzeichnis ausführbar. Er läuft aber noch nicht als Prozess beim Booten:
 
