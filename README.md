@@ -7,35 +7,24 @@
 > 
 > Innerhalb eines Abschnitts, ist das Thema komplex zu simpel, bzw schwer zu leicht gegliedert. 
 > 
-> Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem). <br /><br /><br />
-**Inhalt**<br /><br /><br />
-**I. Installation**
+> Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem).
 
-**I. A. 1. Abhängigkeiten** 
+ <br /><br /><br />
+**Inhalt** <br /><br /><br />
+**I. Installation** <br />
+**I. A. 1. Abhängigkeiten** <br />
+**I. A. 2. Download** <br />
 
-**I. A. 2. Download** 
+**I. A. 3. Kompilieren** <br />
 
-**I. A. 3. Kompilieren**
-
-**I. B. Installation eines. deb (siehe II. B.)**9
-<br />
-<br />
-<br />
-# II. Frühere Version installieren 
-
-## II. A. 1. Abhängigkeiten (siehe I. A) 
-
-## II. A. 2. Download 
-
-## II. A. 3. Kompilieren (siehe I. C) 
-
-## II. B. 1. Installation eines. deb
-
-## II. B. 2. Deinstallation 
-<br />
-<br />
-<br />
-# III. Neues Feature/Bugfix vorab installieren 
+**I. B. Installation eines. deb (siehe II. B.)** <br /><br /><br />
+**II. Frühere Version installieren** <br />
+**II. A. 1. Abhängigkeiten (siehe I. A)** <br />
+**II. A. 2. Download**  <br />
+**II. A. 3. Kompilieren (siehe I. C)**  <br />
+**II. B. 1. Installation eines. deb** <br />
+**II. B. 2. Deinstallation** <br /><br /><br />
+**_III. Neues Feature/Bugfix vorab installieren_**
 
 ## III. A. Pull Requests und Commits
 
