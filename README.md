@@ -152,7 +152,7 @@ Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seit
 
 # **II. Bestimmte Version installieren** 
 
-## **II. A. 1. Abhängigkeiten **
+## **II. A. 1. Abhängigkeiten**
 
 Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe I. A. 
 
