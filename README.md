@@ -158,7 +158,7 @@ Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-pr
 
 Falls man sich zB für ein bestimmtes Bugfix interessiert, muss man jedoch nicht auf das Zusammenführen warten. Der PR kann auch gleich bei sich lokal angewandt werden. Für aktuelle Commits siehe Update. 
 
-Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als [PR](https://github.com/hyperion-project/hyperion.ng/pulls mit der Nummer 1164 eingereicht und ich will diesen installieren. 
+Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als [PR](https://github.com/hyperion-project/hyperion.ng/pulls) mit der Nummer 1164 eingereicht und ich will diesen installieren. 
 
 <p align="center">
   <img src="Pictures/pr.jpg" width="350" >
