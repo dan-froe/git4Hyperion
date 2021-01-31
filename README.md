@@ -127,6 +127,10 @@ Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Inst
 ## **II. B. 1. Installieren der .deb Dateien**
 
 Als erstes das .deb downloaden. Ich nehme Alpha.7. Den Link kann man aus folgender [Liste](https://github.com/hyperion-project/hyperion.ng/releases) entnehmen. 
+<p align="center">
+  <img src="Pictures/assets.jpg" width="350" >
+</p>
+
 
 <pre><code>wget https://github.com/hyperion-project/hyperion.ng/releases/download/2.0.0-alpha.8/Hyperion-2.0.0-alpha.8-Linux-armv7l.deb</code></pre>
 
@@ -147,13 +151,17 @@ Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen 
 
 ## **III. A. Pull Requests und Commits**
 
-Auf Github können Entwickler mit Pull Requests (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie Commits. 
+Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-project/hyperion.ng/pulls) (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie [Commits](https://github.com/hyperion-project/hyperion.ng/compare/2.0.0-alpha.9...master). 
 
 III. B. Pull Requests 
 
 Falls man sich zB für ein bestimmtes Bugfix interessiert, muss man jedoch nicht auf das Zusammenführen warten. Der PR kann auch gleich bei sich lokal angewandt werden. Für aktuelle Commits siehe Update. 
 
-Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als PR mit der Nummer 1117 eingereicht und ich will diesen installieren. 
+Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als [PR](https://github.com/hyperion-project/hyperion.ng/pulls mit der Nummer 1164 eingereicht und ich will diesen installieren. 
+
+<p align="center">
+  <img src="Pictures/pr.jpg" width="350" >
+</p>
 
 ## **III. B. 1.  PR vom Server holen**
 
@@ -161,13 +169,13 @@ In das lokale Repository wechseln.
 
 <pre><code>cd ~/hyperion</code></pre>
 
-Nun holen wir uns die Informationen für PR **1117**. Der Befehl `pull/XXX/head:NAME` muß angepasst werden. XXX entspricht der Nummer des PR. Mit dem Abschnitt head:NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springen.
+Nun holen wir uns die Informationen für PR **1164**. Der Befehl `pull/XXX/head:NAME` muß angepasst werden. XXX entspricht der Nummer des PR. Mit dem Abschnitt head:NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springen.
 
-<pre><code>sudo git fetch origin pull/1117/head:pr1117</code></pre>
+<pre><code>sudo git fetch origin pull/1164/head:pr1164</code></pre>
 
 ## **III. B. 2. Stempel laden und Kompilieren** 
 
-<pre><code>sudo git checkout #00ff00pr1117</code></pre>
+<pre><code>sudo git checkout pr1164</code></pre>
 
 … und führen die Befehle ab kompilieren aus. Hyperion ist nun mit dem PR installiert. 
 
