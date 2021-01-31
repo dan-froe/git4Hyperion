@@ -1,4 +1,4 @@
-# GitWithHyperion
+# Git4Hyperion
 
 <p align="center">
   <img src="Pictures/logo.png" width="350" >
@@ -13,7 +13,7 @@
 > Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem).
 
  <br /><br /><br />
-**Inhalt** <br /><br /><br />
+# **Inhalt** <br /><br /><br />
 **[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)** <br />
 **I. A. 1. Abhängigkeiten** <br />
 **I. A. 2. Download** <br />
@@ -48,14 +48,14 @@
 **VI. A. 1. hyperiond@&#8203;pi.service**  <br />
 **VI. A. 2. hyperiond@&#8203;.service** <br />
 **VI. B. Service starten** <br /> <br /> <br /> <br /> <br /> <br /> 
-# **I. Installation**
+## **I. Installation**
 
 Standard Hyperion NG Installation per Einzelbefehle für Raspbian. Zuerst System updaten
 
 <pre><code>sudo apt update
 sudo apt full-upgrade</code></pre>
 
-## **I. A. 1. Abhängigkeiten**
+**I. A. 1. Abhängigkeiten**
 
 In der [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem) die Befehle unter folgenden Punkten ausführen. Es werden die Abhängigkeiten installiert. 
 
@@ -99,11 +99,11 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 **I. B. Installation eines .deb**
 
 Die Anleitung befindet sich unter II. B.). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode I. A. installiert immer die neueste Version. 
-Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb. 
+Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb. <br /> <br /> 
 
 
 
-# **II. Bestimmte Version installieren** 
+## **II. Bestimmte Version installieren** 
 
 **II. A. 1. Abhängigkeiten**
 
@@ -145,10 +145,10 @@ Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen 
 
 **II. B. 2. Deinstallation** 
 
-<pre><code>sudo apt remove hyperion</code></pre>
+<pre><code>sudo apt remove hyperion</code></pre> <br /> <br /> 
 
 
-# **III. Neue Feature/Bugfixe vorab installieren** 
+## **III. Neue Feature/Bugfixe vorab installieren** 
 
 **III. A. Pull Requests und Commits**
 
@@ -194,10 +194,10 @@ Wir benötigen wieder die Nummer des PR, zB 142. Die Letzte Stelle des Befehls i
 
 <pre><code>sudo wget -qO- https://gist.githubusercontent.com/Paulchen-Panther/a038cb3df85159a455bcedd2cfa9e75d/raw/f9d599a17e5478dfdbdf3641945ce4fae9a8c481/PR_Hyperion.sh | bash -s 142</code></pre>
 
-Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyperion_pr142`, dort das Skript `./prNUMMER.sh` ausführen. 
+Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyperion_pr142`, dort das Skript `./prNUMMER.sh` ausführen. <br /> <br /> 
 
 
-# **IV Updates**
+## **IV Updates**
 
 Für Update in einem Schritt siehe IV.B und Alternativen IV.C.
 
@@ -241,10 +241,10 @@ Man kann entweder das Verzeichnis umbenennen, zB
 
 <pre><code>sudo mv hyperion hyperion_old</code></pre>
 
-oder bei Methode I. das Repository Verzeichnis ändern (siehe I. B). 
+oder bei Methode I. das Repository Verzeichnis ändern (siehe I. B). <br /> <br /> 
 
 
-# **V. Rückschritte (Undo)** 
+## **V. Rückschritte (Undo)** 
 
 Zu Bestimmten Commits vor oder zurück gehen. 
 
@@ -268,10 +268,10 @@ Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beisp
 
 **V. C. Kompilieren**
 
-Die Befehle ab Kompilieren ausführen (siehe I. C). Es wird bis zum Commit installiert. 
+Die Befehle ab Kompilieren ausführen (siehe I. C). Es wird bis zum Commit installiert. <br /> <br /> 
 
 
-# **VI. Systemd einrichten**
+## **VI. Systemd einrichten**
 
 Hyperion wird bei Systemstart als Service im Hintergrund ausgeführt. 
 
