@@ -128,7 +128,7 @@ Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Inst
 
 Als erstes das .deb downloaden. Ich nehme Alpha.7. Den Link kann man aus folgender [Liste](https://github.com/hyperion-project/hyperion.ng/releases) entnehmen. 
 <p align="center">
-  <img src="Pictures/assets.jpg" width="350" >
+  <img src="Pictures/assests.jpg" width="350" >
 </p>
 
 
@@ -160,7 +160,7 @@ Falls man sich zB für ein bestimmtes Bugfix interessiert, muss man jedoch nicht
 Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als [PR](https://github.com/hyperion-project/hyperion.ng/pulls mit der Nummer 1164 eingereicht und ich will diesen installieren. 
 
 <p align="center">
-  <img src="Pictures/pr.jpg" width="350" >
+  <img src="Pictures/pr.jpg" width="350" alt="www.google.com">
 </p>
 
 ## **III. B. 1.  PR vom Server holen**
@@ -274,7 +274,7 @@ Hyperion wird bei Systemstart als Service im Hintergrund ausgeführt.
 
 Zuvor mit `sudo raspi-config` autologin aktivieren für den User pi.
 
-## **VI. A. 1. hyperiond\@pi.service**
+## **VI. A. 1. hyperiond\@&#8203;pi.service**
 
 <pre><code>sudo nano /etc/systemd/system/multi-user.target.wants/hyperiond@pi.service</code></pre>
 
@@ -296,7 +296,7 @@ RestartSec=2
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-## **VI. A. 2. hyperiond\@.service**
+## **VI. A. 2. hyperiond\@&#8203;.service**
 
 <pre><code>sudo nano /etc/systemd/system/hyperiond@.service</code></pre>
 
