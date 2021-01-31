@@ -1,8 +1,6 @@
 # git4Hyperion
 
-<p align="center">
-  <img src="Pictures/logo.png" width="350" >
-</p>
+<a href="https://github.com/hyperion-project/hyperion.ng"><img src="Pictures/logo.png" width="350" alt="github hyperion logo"></a>
 
 # **Cheat-Sheet git für Hyperion.ng** 
 
@@ -24,40 +22,39 @@
 
 
 &nbsp;
-
-**[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)** <br />
-**I. A. 1. Abhängigkeiten** <br /> 
-**I. A. 2. Download** <br />
-**I. A. 3. Kompilieren** <br />
-**I. B. Installation eines .deb Packets (siehe II. B.)** <br /> <br /> 
-**[II. Frühere Version installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#II-Bestimmte-Version-installieren)** <br />
-**II. A. 1. Abhängigkeiten (siehe I. A)** <br />
-**II. A. 2. Download**  <br />
-**II. A. 3. Kompilieren (siehe I. C)**  <br />
-**II. B. 1. Installation eines. deb Packets** <br />
-**II. B. 2. Deinstallation** <br /> <br /> 
-**[III. Neues Feature/Bugfix vorab installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#iii-neue-featurebugfixe-vorab-installieren)** <br />
-**III. A. Pull Requests und Commits** <br />
-**III. B. Pull Requests** <br />
-**III. B. 1. Pull Requests vom Server holen** <br />
-**III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C)** <br />
-**III. B. 3. Rückgängig machen (undo)** <br />
-**III. C. Einfacher per Skript** <br /> <br /> 
-**[IV. Updates](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#IV-Updates)** <br />
-**IV. A. Update in Einzelschritten**  <br />
-**IV. A. 1. Die aktuellen Commits holen (Erklärung Commit siehe III. A)** <br />
-**IV. A. 2. Commits und Repository zusammenführen** <br />
-**IV. A. 3. Kompilieren (siehe I.C)** <br />
-**IV. B. Update in einem Schritt und Kompilieren (Kompilieren siehe I. C)** <br />
-**IV. C. Alternativen** <br /> <br /> 
-**[V. Rückschritte (Undo)](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#v-r%C3%BCckschritte-undo)** <br />
-**V. A. Commit per Hash identifizieren** <br />
-**V. B. Zum Commit/Hash springen** <br />
-**V. C. Kompilieren (siehe I. C)** <br /> <br /> 
-**[VI. Als Systemd einrichten](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#VI-systemd-einrichten)** <br />
-**VI. A. Systemd Datei einrichten**  <br />
-**VI. A. 1. hyperiond@&#8203;pi.service**  <br />
-**VI. A. 2. hyperiond@&#8203;.service** <br />
+**[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)**
+**I. A. 1. Abhängigkeiten**
+**I. A. 2. Download**
+**I. A. 3. Kompilieren**
+**I. B. Installation eines .deb Packets siehe [II. B.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien)**
+**[II. Frühere Version installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#II-Bestimmte-Version-installieren)**
+**II. A. 1. Abhängigkeiten siehe [I. A](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#i-a-1-abh%C3%A4ngigkeiten)**
+**II. A. 2. Download**
+**II. A. 3. Kompilieren siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**
+**II. B. 1. Installation eines. deb Packets**
+**II. B. 2. Deinstallation**
+**[III. Neues Feature/Bugfix vorab installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#iii-neue-featurebugfixe-vorab-installieren)**
+**III. A. Pull Requests und Commits**
+**III. B. Pull Requests**
+**III. B. 1. Pull Requests vom Server holen**
+**III. B. 2. Stempel (PR) laden und [Kompilieren siehe I. A 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**
+**III. B. 3. Rückgängig machen (undo)**
+**III. C. Einfacher per Skript**
+**[IV. Updates](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#IV-Updates)**
+**IV. A. Update in Einzelschritten**
+**IV. A. 1. Die aktuellen [Commits](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#iii-a-pull-requests-und-commits) holen**
+**IV. A. 2. Commits und Repository zusammenführen**
+**IV. A. 3. Kompilieren siehe [I. A 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**
+**IV. B. Update in einem Schritt und Kompilieren siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**
+**IV. C. Alternativen**
+**[V. Rückschritte (Undo)](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#v-r%C3%BCckschritte-undo)**
+**V. A. Commit per Hash identifizieren**
+**V. B. Zum Commit/Hash springen**
+**V. C. Kompilieren [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**
+**[VI. Als Systemd einrichten](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#VI-systemd-einrichten)**
+**VI. A. Systemd Datei einrichten**
+**VI. A. 1. hyperiond@&#8203;pi.service**
+**VI. A. 2. hyperiond@&#8203;.service**
 **VI. B. Service starten**
 
 
@@ -330,9 +327,6 @@ Alles auf einmal, die Commits holen und zusammenführen:
 <pre><code>sudo git pull https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
 
 Dann wieder kompilieren [I. A. 3](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren).
-
-
-&nbsp;
 
 
 &nbsp;
