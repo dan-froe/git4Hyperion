@@ -13,7 +13,7 @@
 > Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem).
 
  <br /><br /><br />
-# **Inhalt**
+# **Inhalt** <br /> 
 **[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)** <br />
 **I. A. 1. Abhängigkeiten** <br /> 
 **I. A. 2. Download** <br />
@@ -127,7 +127,7 @@ Ich möchte Alpha.8, daher `--branch 2.0.0-alpha.8`
 
 Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe I. C. <br /> 
 
-**II. B. 1. Installieren der .deb Dateien**
+#### **II. B. 1. Installieren der .deb Dateien**
 
 Als erstes das .deb downloaden. Ich nehme Alpha.7. Den Link kann man aus folgender [Liste](https://github.com/hyperion-project/hyperion.ng/releases) entnehmen. 
 <p align="center">
