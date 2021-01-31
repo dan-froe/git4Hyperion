@@ -71,7 +71,7 @@ Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperio
 
 <pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br /> 
 
-**I. A. 3. Kompilieren**
+#### **I. A. 3. Kompilieren**
 
 Als nächstes wechseln wir in das erstellte Verzeichnis und erstellen dann ein weiteres, "build". Danach nach "build" wechseln. 
 
@@ -201,7 +201,7 @@ Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyper
 
 ## **IV Updates**
 
-Für Update in einem Schritt siehe IV.B und Alternativen IV.C. <br /> 
+Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iv-b-update-in-einem-schritt) und Alternativen [IV.C.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen) <br /> 
 
 **IV A. Update in Einzelschritten** 
 
@@ -229,7 +229,7 @@ Alles auf einmal, die Commits holen und zusammenführen:
 
 <pre><code>sudo git pull https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
 
-Dann wieder kompilieren (I. C.). <br /> 
+Dann wieder kompilieren [I. A. 3.] . <br /> 
 
 #### **IV. C. Alternativen**
 
