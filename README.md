@@ -38,8 +38,7 @@
 **[IV. Updates](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#IV-Updates)** <br/> 
 *IV. A. Update in Einzelschritten* <br/> 
 *IV. A. 1. Die aktuellen [Commits](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#iii-a-pull-requests-und-commits) holen* <br/> 
-*IV. A. 2. Commits und Repository* <br/> 
-          *zusammenführen* <br/> 
+*IV. A. 2. Commits und Repository zusammenführen* <br/> 
 *IV. A. 3. Kompilieren siehe [I. A 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)* <br/> 
 *IV. B. Update in einem Schritt und Kompilieren siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)* <br/> 
 *IV. C. Alternativen* <br /> <br /> 
