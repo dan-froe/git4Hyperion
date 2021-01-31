@@ -24,7 +24,7 @@
 &nbsp;
 
 **[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)**<br/>
-**I. A. 1. Abhängigkeiten**<br/>
+##### **I. A. 1. Abhängigkeiten**<br/>
 **I. A. 2. Download**<br/>
 **I. A. 3. Kompilieren**<br/>
 **I. B. Installation per .deb Packet siehe [II. B.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien)**
@@ -50,9 +50,9 @@
 **IV. A. 2. Commits und Repository zusammenführen**<br/>
 **IV. A. 3. Kompilieren siehe [I. A 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**<br/>
 **IV. B. Update in einem Schritt und Kompilieren siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**<br/>
-**IV. C. Alternativen**<br/>
-**[V. Rückschritte (Undo)](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#v-r%C3%BCckschritte-undo)**
+**IV. C. Alternativen**
 
+**[V. Rückschritte (Undo)](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#v-r%C3%BCckschritte-undo)**<br/> 
 **V. A. Commit per Hash identifizieren**<br/>
 **V. B. Zum Commit/Hash springen**<br/>
 **V. C. Kompilieren [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)**
