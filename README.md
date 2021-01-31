@@ -119,8 +119,7 @@ Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hype
 </p>
 Ich möchte Alpha.8, daher `--branch 2.0.0-alpha.8`
 
-<pre><code>sudo git clone --branch 2.0.0-alpha.8 
---recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
+<pre><code>sudo git clone --branch 2.0.0-alpha.8 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
 
 **II. A. 3. Kompilieren**
 
