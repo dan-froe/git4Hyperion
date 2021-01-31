@@ -111,7 +111,6 @@ Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten 
 Ich gehe von einem frisch geflashten Image aus. 
 Wir starten dann wieder mit "git clone". Alpha 7 ist die Version, die ich installieren will. Die Installation geht gemäß letztem Befehl wieder in das Verzeichnis "Hyperion". 
 Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hyperion-project/hyperion.ng/releases). 
-!)
 <p align="center">
   <img src="Pictures/tag.jpg" width="350" >
 </p>
@@ -136,7 +135,7 @@ Als erstes das .deb downloaden. Ich nehme Alpha.7. Den Link kann man aus folgend
 
 Die Datei befindet sich nun im aktuellen Verzeichnis. Nun die Installation :
 
-<pre><code>sudo apt install ./Hyperion-2.0.0-alpha.8-Linux-armv7l.deb</code></pre>
+<pre><code>sudo apt install ./Hyperion-2.0.0-alpha.7-Linux-armv7l.deb</code></pre>
 
 Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen wir die Abhängigkeiten:
 
@@ -160,7 +159,7 @@ Falls man sich zB für ein bestimmtes Bugfix interessiert, muss man jedoch nicht
 Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als [PR](https://github.com/hyperion-project/hyperion.ng/pulls mit der Nummer 1164 eingereicht und ich will diesen installieren. 
 
 <p align="center">
-  <img src="Pictures/pr.jpg" width="350" alt="www.google.com">
+  <img src="Pictures/pr.jpg" width="350" >
 </p>
 
 ## **III. B. 1.  PR vom Server holen**
