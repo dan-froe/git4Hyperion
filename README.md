@@ -13,7 +13,7 @@
 > Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem).
 
  <br /><br /><br />
-# **Inhalt** <br /><br /><br />
+# **Inhalt**
 **[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)** <br />
 **I. A. 1. Abhängigkeiten** <br />
 **I. A. 2. Download** <br />
