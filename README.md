@@ -152,7 +152,7 @@ Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen 
 
 Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-project/hyperion.ng/pulls) (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie [Commits](https://github.com/hyperion-project/hyperion.ng/compare/2.0.0-alpha.9...master). 
 
-III. B. Pull Requests 
+## III. B. Pull Requests 
 
 Falls man sich zB für ein bestimmtes Bugfix interessiert, muss man jedoch nicht auf das Zusammenführen warten. Der PR kann auch gleich bei sich lokal angewandt werden. Für aktuelle Commits siehe Update. 
 
@@ -273,7 +273,7 @@ Die Befehle ab Kompilieren ausführen (siehe I. C). Es wird bis zum Commit insta
 
 Hyperion wird bei Systemstart als Service im Hintergrund ausgeführt. 
 
-# **VI. A. Systemd Datei anlegen**
+## **VI. A. Systemd Datei anlegen**
 
 Zuvor mit `sudo raspi-config` autologin aktivieren für den User pi.
 
