@@ -53,7 +53,7 @@
 Standard Hyperion NG Installation per Einzelbefehle für Raspbian. Zuerst System updaten
 
 <pre><code>sudo apt update
-sudo apt full-upgrade</code></pre>
+sudo apt full-upgrade</code></pre><br />
 #### **I. A. 1. Abhängigkeiten**
 
 In der [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem) die Befehle unter folgenden Punkten ausführen. Es werden die Abhängigkeiten installiert. 
@@ -118,9 +118,9 @@ Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hype
 <p align="center">
   <img src="Pictures/tag.jpg" width="350" >
 </p>
-Ich möchte Alpha.8, daher `--branch 2.0.0-alpha.8`
+Ich möchte Alpha.8, daher ~~~--branch 2.0.0-alpha.8~~~ . <br /> <br /> 
 
-<pre><code>sudo git clone --branch 2.0.0-alpha.8 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br /> <br /> <br /> 
+<pre><code>sudo git clone --branch 2.0.0-alpha.8 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br />
 
 **II. A. 3. Kompilieren**
 
