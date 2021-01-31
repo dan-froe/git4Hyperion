@@ -124,9 +124,6 @@ Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten 
 
 
 &nbsp;
-
-
-&nbsp;
 #### **II. A. 2. Download** 
 
 Ich gehe von einem frisch geflashten Image aus. 
@@ -254,13 +251,13 @@ Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyper
 
 
 &nbsp;
-## **IV Updates**
+## **IV. Updates**
 
 Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iv-b-update-in-einem-schritt) und Alternativen [IV.C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen). 
 
 
 &nbsp;
-**IV A. Update in Einzelschritten** 
+**IV. A. Update in Einzelschritten** 
 
 **IV. A. 1. Die aktuellen Commits holen**
 
