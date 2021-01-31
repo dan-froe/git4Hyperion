@@ -254,11 +254,15 @@ Um zu einem bestimmten Commit (siehe III. A) zurück zu gehe, brauchen wir den H
 
 Die lange Buchstaben und Zahlenreihe sind der Hash. 
 
+<p align="center">
+  <img src="Pictures/hash.jpg" width="350" >
+</p>
+
 ## **V. B. Zum Commit/Hash springen** 
 
-Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beispielsweise, Hash "**86h75f**z78865tg6zh7z687766z". 
+Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beispielsweise, Hash "**fbd10e**88659db529a67aaf8d1f0bb196cb2f476f". 
 
-<pre><code>sudo git checkout 86h75f</code></pre>
+<pre><code>sudo git checkout fbd10e</code></pre>
 
 ## **V. C. Kompilieren**
 
