@@ -63,13 +63,14 @@ In der [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/ma
 
 und
 
-- "on RPI you need the videocore IV headers" <br /> 
+- "on RPI you need the videocore IV headers". <br /> 
+
 
 **I. A. 2. Download des Repository**
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperion" legt das Verzeichnis fest. 
 
-<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br /> 
+<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br />
 
 #### **I. A. 3. Kompilieren**
 
@@ -96,7 +97,7 @@ Der letzte Befehl installiert Hyperion in das System und ist nun ohne Verzeichni
 
 <pre><code>sudo make install/strip</code></pre>
 
-Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe VI.. <br /> 
+Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe [VI.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#VI-systemd-einrichten). <br /> 
 
 **I. B. Installation eines .deb**
 
@@ -109,7 +110,7 @@ Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seit
 
 **II. A. 1. Abhängigkeiten**
 
-Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten) <br /> 
+Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten). <br /> 
 
 **II. A. 2. Download** 
 
@@ -252,7 +253,7 @@ Zu Bestimmten Commits vor oder zurück gehen. <br />
 
 **V. A. Commit per Hash identifizieren** 
 
-Um zu einem bestimmten Commit (siehe III. A) zurück zu gehe, brauchen wir den Hash (ID des Commit). Um den Hash der Commits anzusehen:
+Um zu einem bestimmten Commit siehe [III. A](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iii-a-pull-requests-und-commits) zurück zu gehe, brauchen wir den Hash (ID des Commit). Um den Hash der Commits anzusehen:
 
 <pre><code>sudo git log</code></pre>
 
@@ -270,7 +271,7 @@ Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beisp
 
 **V. C. Kompilieren**
 
-Die Befehle ab Kompilieren ausführen (siehe I. C). Es wird bis zum Commit installiert. <br /> <br /> 
+Die Befehle ab Kompilieren ausführen siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren). Es wird bis zum Commit installiert. <br /> <br /> 
 
 
 ## **VI. Systemd einrichten**
