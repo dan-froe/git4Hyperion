@@ -155,7 +155,9 @@ Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Inst
 
 Als erstes das .deb downloaden. Ich nehme Alpha.7. Den Link kann man aus folgender [Liste](https://github.com/hyperion-project/hyperion.ng/releases) entnehmen. 
 <p align="center">
+<kbd>
   <img src="Pictures/assests.jpg" width="350" >
+</kbd>
 </p>
 
 
@@ -197,7 +199,9 @@ Falls man sich zB für ein bestimmtes Bugfix interessiert, muss man jedoch nicht
 Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als [PR](https://github.com/hyperion-project/hyperion.ng/pulls) mit der Nummer 1164 eingereicht und ich will diesen installieren. 
 
 <p align="center">
+<kbd>
   <img src="Pictures/pr.jpg" width="350" >
+</kbd>
 </p>
 
 
@@ -340,7 +344,9 @@ Um zu einem bestimmten Commit siehe [III. A](https://github.com/dan-froe/git4Hyp
 Die lange Buchstaben und Zahlenreihe sind der Hash. 
 
 <p align="center">
+<kbd>
   <img src="Pictures/hash.jpg" width="350" >
+</kbd>
 </p>
 
 
