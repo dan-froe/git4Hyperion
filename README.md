@@ -24,6 +24,7 @@
 
 
 &nbsp;
+
 **[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)** <br />
 **I. A. 1. Abhängigkeiten** <br /> 
 **I. A. 2. Download** <br />
@@ -285,11 +286,11 @@ Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyper
 &nbsp;
 ## **IV. Updates**
 
-Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iv-b-update-in-einem-schritt) und Alternativen [IV.C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen). 
+Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iv-b-update-in-einem-schritt) und Alternativen [IV.C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen).
 
 
 &nbsp;
-**IV. A. Update in Einzelschritten** 
+**IV. A. Update in Einzelschritten**
 
 **IV. A. 1. Die aktuellen Commits holen**
 
