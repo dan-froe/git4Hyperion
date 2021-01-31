@@ -11,7 +11,7 @@
 
  <br /><br /><br />
 **Inhalt** <br /><br /><br />
-**I. Installation** <br />
+**[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-a-3-kompilieren)** <br />
 **I. A. 1. Abhängigkeiten** <br />
 **I. A. 2. Download** <br />
 **I. A. 3. Kompilieren** <br />
