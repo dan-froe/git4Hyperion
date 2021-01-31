@@ -15,7 +15,7 @@
  <br /><br /><br />
 # **Inhalt**
 **[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)** <br />
-**I. A. 1. Abhängigkeiten** <br />
+**I. A. 1. Abhängigkeiten** <br /> 
 **I. A. 2. Download** <br />
 **I. A. 3. Kompilieren** <br />
 **I. B. Installation eines. deb (siehe II. B.)** <br /> <br /> 
@@ -47,27 +47,29 @@
 **VI. A. Systemd Datei einrichten**  <br />
 **VI. A. 1. hyperiond@&#8203;pi.service**  <br />
 **VI. A. 2. hyperiond@&#8203;.service** <br />
-**VI. B. Service starten** <br /> <br /> <br /> <br /> <br /> <br /> 
+**VI. B. Service starten** <br /> <br /> <br /> <br /> 
 ## **I. Installation**
 
 Standard Hyperion NG Installation per Einzelbefehle für Raspbian. Zuerst System updaten
 
 <pre><code>sudo apt update
-sudo apt full-upgrade</code></pre>
+sudo apt full-upgrade</code></pre> <br /> 
 
 **I. A. 1. Abhängigkeiten**
 
 In der [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem) die Befehle unter folgenden Punkten ausführen. Es werden die Abhängigkeiten installiert. 
 
-- "Debian/Ubuntu/Win10LinuxSubsystem" 
+- "Debian/Ubuntu/Win10LinuxSubsystem"
+
 und
-- "on RPI you need the videocore IV headers" 
+
+- "on RPI you need the videocore IV headers" <br /> 
 
 **I. A. 2. Download des Repository**
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperion" legt das Verzeichnis fest. 
 
-<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
+<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br /> 
 
 **I. A. 3. Kompilieren**
 
@@ -94,7 +96,7 @@ Der letzte Befehl installiert Hyperion in das System und ist nun ohne Verzeichni
 
 <pre><code>sudo make install/strip</code></pre>
 
-Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe VI.. 
+Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe VI.. <br /> 
 
 **I. B. Installation eines .deb**
 
@@ -107,7 +109,7 @@ Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seit
 
 **II. A. 1. Abhängigkeiten**
 
-Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe I. A. 
+Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe I. A. <br /> 
 
 **II. A. 2. Download** 
 
@@ -119,11 +121,11 @@ Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hype
 </p>
 Ich möchte Alpha.8, daher `--branch 2.0.0-alpha.8`
 
-<pre><code>sudo git clone --branch 2.0.0-alpha.8 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
+<pre><code>sudo git clone --branch 2.0.0-alpha.8 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br /> 
 
 **II. A. 3. Kompilieren**
 
-Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe I. C. 
+Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe I. C. <br /> 
 
 **II. B. 1. Installieren der .deb Dateien**
 
@@ -141,7 +143,7 @@ Die Datei befindet sich nun im aktuellen Verzeichnis. Nun die Installation :
 
 Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen wir die Abhängigkeiten:
 
-<pre><code>sudo apt -f install</code></pre>
+<pre><code>sudo apt -f install</code></pre> <br /> 
 
 **II. B. 2. Deinstallation** 
 
@@ -152,7 +154,7 @@ Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen 
 
 **III. A. Pull Requests und Commits**
 
-Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-project/hyperion.ng/pulls) (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie [Commits](https://github.com/hyperion-project/hyperion.ng/compare/2.0.0-alpha.9...master). 
+Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-project/hyperion.ng/pulls) (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie [Commits](https://github.com/hyperion-project/hyperion.ng/compare/2.0.0-alpha.9...master). <br /> 
 
 **III. B. Pull Requests**
 
@@ -162,7 +164,7 @@ Ich gehe davon aus, dass Hyperion schon installiert ist. Es wird ein Bugfix als 
 
 <p align="center">
   <img src="Pictures/pr.jpg" width="350" >
-</p>
+</p> <br /> 
 
 **III. B. 1.  PR vom Server holen**
 
@@ -172,20 +174,20 @@ In das lokale Repository wechseln.
 
 Nun holen wir uns die Informationen für PR **1164**. Der Befehl `pull/XXX/head:NAME` muß angepasst werden. XXX entspricht der Nummer des PR. Mit dem Abschnitt head:NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springen.
 
-<pre><code>sudo git fetch origin pull/1164/head:pr1164</code></pre>
+<pre><code>sudo git fetch origin pull/1164/head:pr1164</code></pre> <br /> 
 
 **III. B. 2. Stempel laden und Kompilieren** 
 
 <pre><code>sudo git checkout pr1164</code></pre>
 
-… und führen die Befehle ab kompilieren aus. Hyperion ist nun mit dem PR installiert. 
+… und führen die Befehle ab kompilieren aus. Hyperion ist nun mit dem PR installiert. <br /> 
 
 **III. B. 3. Rückgängig machen**
 
 <pre><code>sudo make uninstall
 sudo git checkout master</code></pre>
 
-… und führen die Befehle ab kompilieren aus.
+… und führen die Befehle ab kompilieren aus. <br /> 
 
 **III. C. Einfache Methode per Skript**
 
@@ -199,7 +201,7 @@ Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyper
 
 ## **IV Updates**
 
-Für Update in einem Schritt siehe IV.B und Alternativen IV.C.
+Für Update in einem Schritt siehe IV.B und Alternativen IV.C. <br /> 
 
 **IV A. Update in Einzelschritten** 
 
@@ -207,7 +209,7 @@ Für Update in einem Schritt siehe IV.B und Alternativen IV.C.
 
 Um das lokale Repository upzudaten holen wir die aktuellen Commits
 
-<pre><code>sudo git fetch  https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
+<pre><code>sudo git fetch  https://github.com/hyperion-project/hyperion.ng.git master</code></pre> <br /> 
 
 **IV. A. 2. Commits und Repository zusammenführen** 
 
@@ -215,11 +217,11 @@ Wie können nun die Updates mit unserem lokalen Repository zusammenführen.
 
 <pre><code>sudo git merge FETCH_HEAD</code></pre>
 
-Anstatt FETCH_HEAD kann man auch ein Commit Hash verwenden und 
+Anstatt FETCH_HEAD kann man auch ein Commit Hash verwenden und ... <br /> 
 
 **IV. A. 3. Installation** 
 
-… führen die Befehle ab kompilieren aus.
+… führen die Befehle ab kompilieren aus. <br /> 
 
 **IV. B. Update in einem Schritt** 
 
@@ -227,7 +229,7 @@ Alles auf einmal, die Commits holen und zusammenführen:
 
 <pre><code>sudo git pull https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
 
-Dann wieder kompilieren (I. C.). 
+Dann wieder kompilieren (I. C.). <br /> 
 
 **IV. C. Alternativen**
 
@@ -246,7 +248,7 @@ oder bei Methode I. das Repository Verzeichnis ändern (siehe I. B). <br /> <br 
 
 ## **V. Rückschritte (Undo)** 
 
-Zu Bestimmten Commits vor oder zurück gehen. 
+Zu Bestimmten Commits vor oder zurück gehen. <br /> 
 
 **V. A. Commit per Hash identifizieren** 
 
@@ -258,13 +260,13 @@ Die lange Buchstaben und Zahlenreihe sind der Hash.
 
 <p align="center">
   <img src="Pictures/hash.jpg" width="350" >
-</p>
+</p> <br /> 
 
 **V. B. Zum Commit/Hash springen** 
 
 Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beispielsweise, Hash "**fbd10e**88659db529a67aaf8d1f0bb196cb2f476f". 
 
-<pre><code>sudo git checkout fbd10e</code></pre>
+<pre><code>sudo git checkout fbd10e</code></pre> <br /> 
 
 **V. C. Kompilieren**
 
@@ -273,11 +275,11 @@ Die Befehle ab Kompilieren ausführen (siehe I. C). Es wird bis zum Commit insta
 
 ## **VI. Systemd einrichten**
 
-Hyperion wird bei Systemstart als Service im Hintergrund ausgeführt. 
+Hyperion wird bei Systemstart als Service im Hintergrund ausgeführt. <br /> 
 
 **VI. A. Systemd Datei anlegen**
 
-Zuvor mit `sudo raspi-config` autologin aktivieren für den User pi.
+Zuvor mit `sudo raspi-config` autologin aktivieren für den User pi. <br /> 
 
 **VI. A. 1. hyperiond\@&#8203;pi.service**
 
@@ -299,9 +301,9 @@ Restart=on-failure
 RestartSec=2
 
 [Install]
-WantedBy=multi-user.target</code></pre>
+WantedBy=multi-user.target</code></pre> <br /> 
 
-## **VI. A. 2. hyperiond\@&#8203;.service**
+**VI. A. 2. hyperiond\@&#8203;.service**
 
 <pre><code>sudo nano /etc/systemd/system/hyperiond@.service</code></pre>
 
@@ -321,7 +323,7 @@ Restart=on-failure
 RestartSec=2
 
 [Install]
-WantedBy=multi-user.target</code></pre>
+WantedBy=multi-user.target</code></pre> <br /> 
 
 VI. B. Service starten**
 
