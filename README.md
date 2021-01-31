@@ -12,25 +12,35 @@
 > 
 > Abschnitt I. entspricht [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem).
 
- <br /><br /><br />
-# **Inhalt** <br /> 
+
+&nbsp;
+
+
+&nbsp;
+
+
+&nbsp;
+# **Inhalt**
+
+
+&nbsp;
 **[I. Installation](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#i-installation)** <br />
 **I. A. 1. Abhängigkeiten** <br /> 
 **I. A. 2. Download** <br />
 **I. A. 3. Kompilieren** <br />
-**I. B. Installation eines. deb (siehe II. B.)** <br /> <br /> 
+**I. B. Installation eines .deb Packets (siehe II. B.)** <br /> <br /> 
 **[II. Frühere Version installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#II-Bestimmte-Version-installieren)** <br />
 **II. A. 1. Abhängigkeiten (siehe I. A)** <br />
 **II. A. 2. Download**  <br />
 **II. A. 3. Kompilieren (siehe I. C)**  <br />
-**II. B. 1. Installation eines. deb** <br />
+**II. B. 1. Installation eines. deb Packets** <br />
 **II. B. 2. Deinstallation** <br /> <br /> 
 **[III. Neues Feature/Bugfix vorab installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#iii-neue-featurebugfixe-vorab-installieren)** <br />
 **III. A. Pull Requests und Commits** <br />
 **III. B. Pull Requests** <br />
 **III. B. 1. Pull Requests vom Server holen** <br />
 **III. B. 2. Stempel (PR) laden und Kompilieren (Kompilieren siehe I.C)** <br />
-**III. B. 3. Rückgängig machen** <br />
+**III. B. 3. Rückgängig machen (undo)** <br />
 **III. C. Einfacher per Skript** <br /> <br /> 
 **[IV. Updates](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#IV-Updates)** <br />
 **IV. A. Update in Einzelschritten**  <br />
@@ -118,10 +128,16 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 
 
 &nbsp;
-**I. B. Installation eines .deb**
+**I. B. Installation eines .deb Packets**
 
 Die Anleitung befindet sich unter [II. B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten) installiert immer die neueste Version. 
 Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb.
+
+<p align="center">
+<kbd>
+  <img style="border:10px solid black;" src="Pictures/commit1.jpg" width="350" >
+</kbd>
+</p>
 
 
 &nbsp;
