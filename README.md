@@ -233,7 +233,7 @@ In das lokale Repository wechseln.
 
 <pre><code>cd ~/hyperion</code></pre>
 
-Nun holen wir uns die Informationen für PR **1164**. Der Befehl `pull/XXX/head:NAME` muß angepasst werden. XXX entspricht der Nummer des PR. Mit dem Abschnitt head:NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springsen können.
+Nun holen wir uns die Informationen für PR **1164**. Der Befehl `pull/XXX/head:NAME` muß angepasst werden. XXX entspricht der Nummer des PR. Mit dem Abschnitt head:NAME legen wir einen Stempel an. Damit können wir zwischen verschiedenen Versionen springen können.
 
 <pre><code>sudo git fetch origin pull/1164/head:pr1164</code></pre>
 
