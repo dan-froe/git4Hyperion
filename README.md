@@ -100,7 +100,7 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 
 **I. B. Installation eines .deb**
 
-Die Anleitung befindet sich unter [II. B.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode I. A. installiert immer die neueste Version. 
+Die Anleitung befindet sich unter [II. B.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten) installiert immer die neueste Version. 
 Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb. <br /> <br /> 
 
 
@@ -109,7 +109,7 @@ Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seit
 
 **II. A. 1. Abhängigkeiten**
 
-Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe I. A. <br /> 
+Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten) <br /> 
 
 **II. A. 2. Download** 
 
@@ -223,7 +223,7 @@ Anstatt FETCH_HEAD kann man auch ein Commit Hash verwenden und ... <br />
 
 … führen die Befehle ab kompilieren aus. <br /> 
 
-**IV. B. Update in einem Schritt** 
+#### **IV. B. Update in einem Schritt** 
 
 Alles auf einmal, die Commits holen und zusammenführen:
 
@@ -231,7 +231,7 @@ Alles auf einmal, die Commits holen und zusammenführen:
 
 Dann wieder kompilieren (I. C.). <br /> 
 
-**IV. C. Alternativen**
+#### **IV. C. Alternativen**
 
 Die Installation unter I. bzw mit 
 
