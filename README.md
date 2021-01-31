@@ -1,4 +1,4 @@
-# Git4Hyperion
+# git4Hyperion
 
 <p align="center">
   <img src="Pictures/logo.png" width="350" >
