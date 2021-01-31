@@ -53,7 +53,10 @@
 Standard Hyperion NG Installation per Einzelbefehle für Raspbian. Zuerst System updaten
 
 <pre><code>sudo apt update
-sudo apt full-upgrade</code></pre>  
+sudo apt full-upgrade</code></pre>
+
+
+&nbsp;
 #### **I. A. 1. Abhängigkeiten**
 
 In der [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/master/CompileHowto.md#debianubuntuwin10linuxsubsystem) die Befehle unter folgenden Punkten ausführen. Es werden die Abhängigkeiten installiert. 
@@ -63,10 +66,6 @@ In der [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/ma
 und
 
 - "on RPI you need the videocore IV headers".
-
-
-
-&nbsp;
 
 
 &nbsp;
@@ -110,10 +109,10 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 **I. B. Installation eines .deb**
 
 Die Anleitung befindet sich unter [II. B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten) installiert immer die neueste Version. 
-Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb. <br /> <br /> 
+Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb.
 
 
-
+&nbsp;
 ## **II. Bestimmte Version installieren** 
 
 **II. A. 1. Abhängigkeiten**
@@ -125,10 +124,10 @@ Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten 
 
 
 &nbsp;
-**II. A. 2. Download** 
+#### **II. A. 2. Download** 
 
 Ich gehe von einem frisch geflashten Image aus. 
-Wir starten dann wieder mit ``git clone``. Alpha 8 ist die Version, die ich installieren will. Die Installation geht gemäß letztem Befehl wieder in das Verzeichnis "Hyperion". 
+Wir starten dann wieder mit ``git clone``. Alpha 8 ist die Version, die ich installieren will. Die Installation geht gemäß letztem Befehl wieder in das Verzeichnis **Hyperion**. 
 Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hyperion-project/hyperion.ng/releases). 
 <p align="center">
   <img src="Pictures/tag.jpg" width="350" >
@@ -145,8 +144,10 @@ Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`.
 &nbsp;
 **II. A. 3. Kompilieren**
 
-Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren). 
+Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren).
 
+
+&nbsp;
 #### **II. B. 1. Installieren der .deb Dateien**
 
 Als erstes das .deb downloaden. Ich nehme Alpha.7. Den Link kann man aus folgender [Liste](https://github.com/hyperion-project/hyperion.ng/releases) entnehmen. 
@@ -175,6 +176,7 @@ Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen 
 <pre><code>sudo apt remove hyperion</code></pre>
 
 
+&nbsp;
 ## **III. Neue Feature/Bugfixe vorab installieren** 
 #### **III. A. Pull Requests und Commits**
 
@@ -248,10 +250,13 @@ Wir benötigen wieder die Nummer des PR, zB 142. Die Letzte Stelle des Befehls i
 Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyperion_pr142`, dort das Skript `./prNUMMER.sh` ausführen.
 
 
+&nbsp;
 ## **IV Updates**
 
-Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iv-b-update-in-einem-schritt) und Alternativen [IV.C.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen) <br /> 
+Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iv-b-update-in-einem-schritt) und Alternativen [IV.C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen). 
 
+
+&nbsp;
 **IV A. Update in Einzelschritten** 
 
 **IV. A. 1. Die aktuellen Commits holen**
@@ -284,13 +289,14 @@ Anstatt FETCH_HEAD kann man auch ein Commit Hash verwenden und ...
 … führen die Befehle ab kompilieren aus.
 
 
+&nbsp;
 #### **IV. B. Update in einem Schritt** 
 
 Alles auf einmal, die Commits holen und zusammenführen:
 
 <pre><code>sudo git pull https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
 
-Dann wieder kompilieren [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren).
+Dann wieder kompilieren [I. A. 3](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren).
 
 
 &nbsp;
@@ -309,9 +315,10 @@ Man kann entweder das Verzeichnis umbenennen, zB
 
 <pre><code>sudo mv hyperion hyperion_old</code></pre>
 
-oder bei Methode I. das Repository Verzeichnis ändern (siehe I. B).
+oder bei Methode I. das Repository Verzeichnis ändern (siehe I. A. 3.).
 
 
+&nbsp;
 ## **V. Rückschritte (Undo)** 
 
 Zu Bestimmten Commits vor oder zurück gehen.
@@ -340,7 +347,7 @@ Die lange Buchstaben und Zahlenreihe sind der Hash.
 &nbsp;
 **V. B. Zum Commit/Hash springen** 
 
-Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beispielsweise, Hash "**fbd10e**88659db529a67aaf8d1f0bb196cb2f476f". 
+Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beispielsweise, Hash `fbd10e88659db529a67aaf8d1f0bb196cb2f476f`. 
 
 <pre><code>sudo git checkout fbd10e</code></pre>
 
@@ -354,6 +361,7 @@ Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beisp
 Die Befehle ab Kompilieren ausführen siehe [I. A. 3](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren). Es wird bis zum Commit installiert.
 
 
+&nbsp;
 ## **VI. Systemd einrichten**
 
 Hyperion wird bei Systemstart als Service im Hintergrund ausgeführt.
@@ -426,7 +434,7 @@ WantedBy=multi-user.target</code></pre>
 
 
 &nbsp;
-VI. B. Service starten**
+**VI. B. Service starten**
 
 <pre><code>sudo systemctl daemon-reload
 sudo systemctl enable hyperiond@pi.service
