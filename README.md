@@ -111,6 +111,10 @@ Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten 
 Ich gehe von einem frisch geflashten Image aus. 
 Wir starten dann wieder mit "git clone". Alpha 7 ist die Version, die ich installieren will. Die Installation geht gemäß letztem Befehl wieder in das Verzeichnis "Hyperion". 
 Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hyperion-project/hyperion.ng/releases). 
+!)
+<p align="center">
+  <img src="Pictures/tag.jpg" width="350" >
+</p>
 Ich möchte Alpha.8, daher `--branch 2.0.0-alpha.8`
 
 <pre><code>sudo git clone --branch 2.0.0-alpha.8 
