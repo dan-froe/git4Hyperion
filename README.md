@@ -152,7 +152,7 @@ Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen 
 
 ## **III. Neue Feature/Bugfixe vorab installieren** 
 
-**III. A. Pull Requests und Commits**
+#### **III. A. Pull Requests und Commits**
 
 Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-project/hyperion.ng/pulls) (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie [Commits](https://github.com/hyperion-project/hyperion.ng/compare/2.0.0-alpha.9...master). <br /> 
 
@@ -229,7 +229,7 @@ Alles auf einmal, die Commits holen und zusammenführen:
 
 <pre><code>sudo git pull https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
 
-Dann wieder kompilieren [I. A. 3.] . <br /> 
+Dann wieder kompilieren [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren). <br /> 
 
 #### **IV. C. Alternativen**
 
