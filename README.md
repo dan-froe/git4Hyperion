@@ -71,9 +71,12 @@ und
 &nbsp;
 #### **I. A. 2. Download des Repository**
 
-Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperion" legt das Verzeichnis fest. 
+Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl **hyperion** legt das Verzeichnis fest. 
 
-<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br />
+<pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre>
+
+
+&nbsp;
 #### **I. A. 3. Kompilieren**
 
 Als nächstes wechseln wir in das erstellte Verzeichnis und erstellen dann ein weiteres, "build". Danach nach "build" wechseln. 
@@ -243,7 +246,7 @@ sudo git checkout master</code></pre>
 **III. C. Einfache Methode per Skript**
 
 Der PR kann parallel zu einer Hyperion Installation installiert werden. 
-Wir benötigen wieder die Nummer des PR, zB 142. Die Letzte Stelle des Befehls ist die gewünschte Nummer des PR. 
+Wir benötigen wieder die Nummer des PR, zB **142**. Die Letzte Stelle des Befehls ist die gewünschte Nummer des PR. 
 
 <pre><code>sudo wget -qO- https://gist.githubusercontent.com/Paulchen-Panther/a038cb3df85159a455bcedd2cfa9e75d/raw/f9d599a17e5478dfdbdf3641945ce4fae9a8c481/PR_Hyperion.sh | bash -s 142</code></pre>
 
@@ -315,7 +318,7 @@ Man kann entweder das Verzeichnis umbenennen, zB
 
 <pre><code>sudo mv hyperion hyperion_old</code></pre>
 
-oder bei Methode I. das Repository Verzeichnis ändern (siehe I. A. 3.).
+oder bei Methode I. das Repository Verzeichnis ändern siehe [I. A. 3](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#i-a-2-download-des-repository).
 
 
 &nbsp;
