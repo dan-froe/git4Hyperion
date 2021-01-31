@@ -1,5 +1,8 @@
 # GitWithHyperion
 
+<p align="center">
+  <img src="Pictures/logo.png" width="350" >
+</p>
 
 # **Cheat-Sheet git für Hyperion.ng** 
 
