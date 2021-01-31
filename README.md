@@ -117,8 +117,10 @@ Wir starten dann wieder mit ``git clone``. Alpha 8 ist die Version, die ich inst
 Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hyperion-project/hyperion.ng/releases). 
 <p align="center">
   <img src="Pictures/tag.jpg" width="350" >
-</p>
-Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`.
+</p> <br />  <br /> 
+
+Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`. <br />  <br /> 
+
 <pre><code>sudo git clone --branch 2.0.0-alpha.8 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br />
 
 **II. A. 3. Kompilieren**
