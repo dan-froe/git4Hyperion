@@ -62,14 +62,13 @@ In der [CompileHowto.md](https://github.com/hyperion-project/hyperion.ng/blob/ma
 
 und
 
-- "on RPI you need the videocore IV headers". <br /> <br /> <br /> 
+- "on RPI you need the videocore IV headers". <br />
 
 **I. A. 2. Download des Repository**
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl "hyperion" legt das Verzeichnis fest. 
 
 <pre><code>sudo git clone --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br />
-
 #### **I. A. 3. Kompilieren**
 
 Als nächstes wechseln wir in das erstellte Verzeichnis und erstellen dann ein weiteres, "build". Danach nach "build" wechseln. 
@@ -95,8 +94,7 @@ Der letzte Befehl installiert Hyperion in das System und ist nun ohne Verzeichni
 
 <pre><code>sudo make install/strip</code></pre>
 
-Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe [VI.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#VI-systemd-einrichten). <br /> <br /> <br /> 
-
+Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe [VI.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#VI-systemd-einrichten). <br />
 **I. B. Installation eines .deb**
 
 Die Anleitung befindet sich unter [II. B.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten) installiert immer die neueste Version. 
@@ -108,8 +106,7 @@ Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seit
 
 **II. A. 1. Abhängigkeiten**
 
-Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten). <br /> <br /> <br /> 
-
+Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten). <br />
 **II. A. 2. Download** 
 
 Ich gehe von einem frisch geflashten Image aus. 
@@ -122,7 +119,6 @@ Hinzu kommt `--branch XY` . XY ist der Tag des [Release](https://github.com/hype
 Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`. <br />  <br /> 
 
 <pre><code>sudo git clone --branch 2.0.0-alpha.8 --recursive https://github.com/hyperion-project/hyperion.ng.git hyperion</code></pre> <br />
-
 **II. A. 3. Kompilieren**
 
 Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. C.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren) <br /> <br /> <br /> 
@@ -143,8 +139,7 @@ Die Datei befindet sich nun im aktuellen Verzeichnis. Nun die Installation :
 
 Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen wir die Abhängigkeiten:
 
-<pre><code>sudo apt -f install</code></pre> <br /> <br /> <br /> 
-
+<pre><code>sudo apt -f install</code></pre> <br />
 **II. B. 2. Deinstallation** 
 
 <pre><code>sudo apt remove hyperion</code></pre> <br /> <br /> 
@@ -154,8 +149,7 @@ Hyperion wird mit den Abhängigkeiten installieren. Zur Sicherheit überprüfen 
 
 #### **III. A. Pull Requests und Commits**
 
-Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-project/hyperion.ng/pulls) (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie [Commits](https://github.com/hyperion-project/hyperion.ng/compare/2.0.0-alpha.9...master). <br /> <br /> <br /> 
-
+Auf Github können Entwickler mit [Pull Requests](https://github.com/hyperion-project/hyperion.ng/pulls) (PR) neue Funktionen oder Bugfixe für das Repository anbieten. Ein PR ist noch nicht im Repository enthalten. Sie werden abgelehnt oder angenommen. Sind Sie angenommen, wird der PR mit dem Master Repository zusammengefügt. Nun heißen sie [Commits](https://github.com/hyperion-project/hyperion.ng/compare/2.0.0-alpha.9...master). <br />
 **III. B. Pull Requests**
 
 Falls man sich zB für ein bestimmtes Bugfix interessiert, muss man jedoch nicht auf das Zusammenführen warten. Der PR kann auch gleich bei sich lokal angewandt werden. Für aktuelle Commits siehe Update. 
