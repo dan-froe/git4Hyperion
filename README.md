@@ -17,18 +17,18 @@
 &nbsp;
 # **Inhalt**
 <br /><br /><br /> 
-**[I. Installation](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#i-installation)** <br/> 
+**[I. Installation](https://github.com/dan-froe/git4Hyperion#i-installation)** <br/> 
 *I. A. 1. Abhängigkeiten* <br/> 
 *I. A. 2. Download* <br/> 
 *I. A. 3. Kompilieren* <br/> 
 *I. B. Installation per .deb Packet siehe [II. B.](https://github.com/dan-froe/git4Hyperion#i-installation)* <br /> <br /> 
 **[II. Frühere Version installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#II-Bestimmte-Version-installieren)** <br/> 
-*II. A. 1. Abhängigkeiten siehe [I. A](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
+*II. A. 1. Abhängigkeiten siehe [I. A](https://github.com/dan-froe/git4Hyperion#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
 *II. A. 2. Download* <br/> 
 *II. A. 3. Kompilieren siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren)* <br/> 
 *II. B. 1. Installation per .deb Packet* <br/> 
 *II. B. 2. Deinstallation* <br /> <br /> 
-**[III. Neues vorab installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#iii-neue-featurebugfixe-vorab-installieren)** <br/> 
+**[III. Neues vorab installieren](https://github.com/dan-froe/git4Hyperion#iii-neue-featurebugfixe-vorab-installieren)** <br/> 
 *III. A. Pull Requests und Commits* <br/> 
 *III. B. Pull Requests* <br/> 
 *III. B. 1. Pull Requests vom Server holen* <br/> 
@@ -81,7 +81,7 @@ und
 
 
 &nbsp;
-#### **I. A. 2. Download des Repository**
+**I. A. 2. Download des Repository**
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl **hyperion** legt das Verzeichnis fest. 
 
@@ -123,7 +123,7 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 &nbsp;
 **I. B. Installation eines .deb Packets**
 
-Die Anleitung befindet sich unter [II. B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten) installiert immer die neueste Version. 
+Die Anleitung befindet sich unter [II. B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A. 1](https://github.com/dan-froe/git4Hyperion#inhalt ) installiert immer die neueste Version. 
 Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb.
 
 <p align="center">
