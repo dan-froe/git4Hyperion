@@ -167,7 +167,7 @@ Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`.
 &nbsp;
 **II. A. 3. Kompilieren**
 
-Letztlich werden die Daten kompiliert, siehe [I. A. 3. a. ](README.md#a).
+Letztlich werden die Daten kompiliert, siehe [I. A. 3. ](README.md#i-a-3-kompilieren).
 
 
 &nbsp;
