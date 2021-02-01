@@ -81,7 +81,7 @@ und
 
 
 &nbsp;
-**I. A. 2. Download des Repository**
+#### **I. A. 2. Download des Repository**
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl **hyperion** legt das Verzeichnis fest. 
 
