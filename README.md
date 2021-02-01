@@ -165,7 +165,7 @@ Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`.
 &nbsp;
 **II. A. 3. Kompilieren**
 
-Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. C](README.md#i-a-3-kompilieren).
+Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. A. 3](README.md#i-a-3-kompilieren).
 
 
 &nbsp;
