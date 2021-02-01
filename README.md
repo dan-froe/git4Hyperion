@@ -91,12 +91,14 @@ Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl **hyperi
 &nbsp;
 #### **I. A. 3. Kompilieren**
 
+##### a) 
 Als nächstes wechseln wir in das erstellte Verzeichnis und erstellen dann ein weiteres, "build". Danach nach "build" wechseln. 
 
 <pre><code>cd hyperion
 sudo mkdir build
 cd build</code></pre>
 
+##### b) 
 Die nächsten 2 Befehle kompilieren Hyperion:
 
 <pre><code>sudo cmake -DCMAKE_BUILD_TYPE=Release ..
@@ -123,7 +125,7 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 &nbsp;
 **I. B. Installation eines .deb Packets**
 
-Die Anleitung befindet sich unter [II. B](README.md#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A. 1](README.md#i-a-1-abh%C3%A4ngigkeiten) installiert immer die neueste Version. 
+Die Anleitung befindet sich unter [II. B](README.md#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A. 1. ](README.md#i-a-1-abh%C3%A4ngigkeiten) installiert immer die neueste Version. 
 Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb.
 
 <p align="center">
@@ -138,7 +140,7 @@ Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seit
 
 **II. A. 1. Abhängigkeiten**
 
-Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A](README.md#i-a-1-abh%C3%A4ngigkeiten).
+Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A. 1](README.md#i-a-1-abh%C3%A4ngigkeiten).
 
 
 &nbsp;
@@ -165,7 +167,7 @@ Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`.
 &nbsp;
 **II. A. 3. Kompilieren**
 
-Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. A. 3](README.md#i-a-3-kompilieren).
+Letztlich werden die Daten kompiliert, siehe [I. A. 3. ](README.md#i-a-3-kompilieren).
 
 
 &nbsp;
@@ -278,7 +280,7 @@ Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyper
 &nbsp;
 ## **IV. Updates**
 
-Für Update in einem Schritt siehe [IV.B](README.md#iv-b-update-in-einem-schritt) und Alternativen [IV.C](README.md#IV-c-Alternativen).
+Für Update in einem Schritt siehe [IV. B. ](README.md#iv-b-update-in-einem-schritt) und Alternativen [IV. C. ](README.md#IV-c-Alternativen).
 
 
 &nbsp;
@@ -352,11 +354,11 @@ Zu Bestimmten Commits vor oder zurück gehen.
 &nbsp;
 **V. A. Commit per Hash identifizieren** 
 
-Um zu einem bestimmten Commit siehe [III. A](README.md#iii-a-pull-requests-und-commits) zurück zu gehe, brauchen wir den Hash (ID des Commit). Um den Hash der Commits anzusehen:
+Um zu einem bestimmten Commit siehe [III. A. ](README.md#iii-a-pull-requests-und-commits) zurück zu gehe, brauchen wir den Hash (ID des Commit). Um den Hash der Commits anzusehen:
 
 <pre><code>sudo git log</code></pre>
 
-Die lange Buchstaben und Zahlenreihe sind der Hash. 
+Die lange Buchstaben und Zahlenreihe ist der Hash. 
 
 <p align="center">
 <kbd>
@@ -382,7 +384,7 @@ Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beisp
 &nbsp;
 **V. C. Kompilieren**
 
-Die Befehle ab Kompilieren ausführen siehe [I. A. 3](README.md#I-a-3-kompilieren). Es wird bis zum Commit installiert.
+Die Befehle ab Kompilieren ausführen siehe [I. A. 3. ](README.md#I-a-3-kompilieren). Es wird bis zum Commit installiert.
 
 
 &nbsp;
