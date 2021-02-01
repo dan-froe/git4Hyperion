@@ -21,9 +21,9 @@
 *I. A. 1. Abhängigkeiten* <br/> 
 *I. A. 2. Download* <br/> 
 *I. A. 3. Kompilieren* <br/> 
-*I. B. Installation per .deb Packet siehe [II. B.](https://github.com/dan-froe/git4Hyperion#i-installation)* <br /> <br /> 
+*I. B. Installation per .deb Packet siehe [II. B. 1.](https://github.com/dan-froe/git4Hyperion#ii-b-1-installieren-der-deb-dateien)* <br /> <br /> 
 **[II. Frühere Version installieren](https://github.com/dan-froe/Git4Hyperion#II-Bestimmte-Version-installieren)** <br/> 
-*II. A. 1. Abhängigkeiten siehe [I. A](https://github.com/dan-froe/git4Hyperion#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
+*II. A. 1. Abhängigkeiten siehe [I. A. 1.](https://github.com/dan-froe/git4Hyperion#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
 *II. A. 2. Download* <br/> 
 *II. A. 3. Kompilieren siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion#i-a-3-kompilieren)* <br/> 
 *II. B. 1. Installation per .deb Packet* <br/> 
@@ -40,7 +40,7 @@
 *IV. A. 1. Die aktuellen [Commits](https://github.com/dan-froe/git4Hyperion#iii-a-pull-requests-und-commits) holen* <br/> 
 *IV. A. 2. Commits und Repository zusammenführen* <br/> 
 *IV. A. 3. Kompilieren siehe [I. A 3.](https://github.com/dan-froe/git4Hyperion#i-a-3-kompilieren)* <br/> 
-*IV. B. Update in einem Schritt und Kompilieren siehe [I. A. 3.](https://github.com/dan-froe/git4Hyperion#i-a-3-kompilieren)* <br/> 
+*IV. B. Update in einem Schritt* <br/> 
 *IV. C. Alternativen* <br /> <br /> 
 **[V. Rückschritte (Undo)](https://github.com/dan-froe/Git4Hyperion#v-r%C3%BCckschritte-undo)** <br/> 
 *V. A. Commit per Hash identifizieren* <br/> 
