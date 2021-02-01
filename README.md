@@ -81,7 +81,7 @@ und
 
 
 &nbsp;
-**I. A. 2. Download des Repository**
+#### **I. A. 2. Download des Repository**
 
 Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl **hyperion** legt das Verzeichnis fest. 
 
@@ -337,7 +337,7 @@ Man kann entweder das Verzeichnis umbenennen, zB
 
 <pre><code>sudo mv hyperion hyperion_old</code></pre>
 
-oder bei Methode I. das Repository Verzeichnis ändern siehe [I. A. 3](README.md#i-a-2-download-des-repository).
+oder bei Methode I. das Repository Verzeichnis ändern siehe [I. A. 2](README.md#i-a-2-download-des-repository).
 
 
 &nbsp;
