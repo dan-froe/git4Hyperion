@@ -21,32 +21,32 @@
 *I. A. 1. Abhängigkeiten* <br/> 
 *I. A. 2. Download* <br/> 
 *I. A. 3. Kompilieren* <br/> 
-*I. B. Installation per .deb Packet siehe [II. B. 1.](Readme.md#ii-b-1-installieren-der-deb-dateien)* <br /> <br /> 
-**[II. Frühere Version installieren](Readme.md#II-Bestimmte-Version-installieren)** <br/> 
-*II. A. 1. Abhängigkeiten siehe [I. A. 1.](Readme.md#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
+*I. B. Installation per .deb Packet siehe [II. B. 1.](README.md#ii-b-1-installieren-der-deb-dateien)* <br /> <br /> 
+**[II. Frühere Version installieren](README.md#II-Bestimmte-Version-installieren)** <br/> 
+*II. A. 1. Abhängigkeiten siehe [I. A. 1.](README.md#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
 *II. A. 2. Download* <br/> 
-*II. A. 3. Kompilieren siehe [I. A. 3.](Readme.md#i-a-3-kompilieren)* <br/> 
+*II. A. 3. Kompilieren siehe [I. A. 3.](README.md#i-a-3-kompilieren)* <br/> 
 *II. B. 1. Installation per .deb Packet* <br/> 
 *II. B. 2. Deinstallation* <br /> <br /> 
-**[III. Neues vorab installieren](Readme.md#iii-neue-featurebugfixe-vorab-installieren)** <br/> 
+**[III. Neues vorab installieren](README.md#iii-neue-featurebugfixe-vorab-installieren)** <br/> 
 *III. A. Pull Requests und Commits* <br/> 
 *III. B. Pull Requests* <br/> 
 *III. B. 1. Pull Requests vom Server holen* <br/> 
-*III. B. 2. PR laden und [kompilieren I. A 3.](Readme.md#i-a-3-kompilieren)* <br/> 
+*III. B. 2. PR laden und [kompilieren I. A 3.](README.md#i-a-3-kompilieren)* <br/> 
 *III. B. 3. Rückgängig machen (undo)* <br/> 
 *III. C. Einfaches Skript* <br /> <br /> 
-**[IV. Updates](Readme.md#IV-Updates)** <br/> 
+**[IV. Updates](README.md#IV-Updates)** <br/> 
 *IV. A. Update in Einzelschritten* <br/> 
-*IV. A. 1. Die aktuellen [Commits](Readme.md#iii-a-pull-requests-und-commits) holen* <br/> 
+*IV. A. 1. Die aktuellen [Commits](README.md#iii-a-pull-requests-und-commits) holen* <br/> 
 *IV. A. 2. Commits und Repository zusammenführen* <br/> 
-*IV. A. 3. Kompilieren siehe [I. A 3.](Readme.md#i-a-3-kompilieren)* <br/> 
+*IV. A. 3. Kompilieren siehe [I. A 3.](README.md#i-a-3-kompilieren)* <br/> 
 *IV. B. Update in einem Schritt* <br/> 
 *IV. C. Alternativen* <br /> <br /> 
-**[V. Rückschritte (Undo)](Readme.md#v-r%C3%BCckschritte-undo)** <br/> 
+**[V. Rückschritte (Undo)](README.md#v-r%C3%BCckschritte-undo)** <br/> 
 *V. A. Commit per Hash identifizieren* <br/> 
 *V. B. Zum Commit/Hash springen* <br/> 
-*V. C. Kompilieren [I. A. 3.](Readme.md#i-a-3-kompilieren)* <br /> <br /> 
-**[VI. Als Systemd einrichten](Readme.md#VI-systemd-einrichten)** <br/> 
+*V. C. Kompilieren [I. A. 3.](README.md#i-a-3-kompilieren)* <br /> <br /> 
+**[VI. Als Systemd einrichten](README.md#VI-systemd-einrichten)** <br/> 
 *VI. A. Systemd Datei einrichten* <br/> 
 *VI. A. 1. hyperiond@&#8203;pi.service* <br/> 
 *VI. A. 2. hyperiond@&#8203;.service* <br/> 
