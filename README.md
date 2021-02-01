@@ -17,7 +17,7 @@
 &nbsp;
 # **Inhalt**
 <br /><br /><br /> 
-**[I. Installation](https://github.com/dan-froe/git4Hyperion#i-installation)** <br/> 
+**[I. Installation](Readme.md#i-installation)** <br/> 
 *I. A. 1. Abhängigkeiten* <br/> 
 *I. A. 2. Download* <br/> 
 *I. A. 3. Kompilieren* <br/> 
