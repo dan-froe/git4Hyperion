@@ -21,7 +21,7 @@
 *I. A. 1. Abhängigkeiten* <br/> 
 *I. A. 2. Download* <br/> 
 *I. A. 3. Kompilieren* <br/> 
-*I. B. Installation per .deb Packet siehe [II. B.](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien)* <br /> <br /> 
+*I. B. Installation per .deb Packet siehe [II. B.](https://github.com/dan-froe/git4Hyperion#i-installation)* <br /> <br /> 
 **[II. Frühere Version installieren](https://github.com/dan-froe/GitWithHyperion/blob/Pictures/README.md#II-Bestimmte-Version-installieren)** <br/> 
 *II. A. 1. Abhängigkeiten siehe [I. A](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
 *II. A. 2. Download* <br/> 
