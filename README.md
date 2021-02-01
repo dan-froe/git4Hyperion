@@ -114,7 +114,7 @@ Der letzte Befehl installiert Hyperion in das System und ist nun ohne Verzeichni
 
 <pre><code>sudo make install/strip</code></pre>
 
-Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe [VI](https://github.com/dan-froe/git4Hyperion/tree/Pictures#VI-systemd-einrichten). 
+Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für systemd siehe [VI](https://github.com/dan-froe/git4Hyperion#VI-systemd-einrichten). 
 
 
 &nbsp;
@@ -123,7 +123,7 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 &nbsp;
 **I. B. Installation eines .deb Packets**
 
-Die Anleitung befindet sich unter [II. B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A. 1](https://github.com/dan-froe/git4Hyperion#inhalt ) installiert immer die neueste Version. 
+Die Anleitung befindet sich unter [II. B](https://github.com/dan-froe/git4Hyperion#ii-b-1-installieren-der-deb-dateien). Wird ein .deb installiert, kann nur die Version zum Zeitpunkt der Erstellung installiert werden. Methode [I. A. 1](https://github.com/dan-froe/git4Hyperion#inhalt ) installiert immer die neueste Version. 
 Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seite unter Releases sieht man die Commits (Neuerungen), seit der Erstellung des .deb.
 
 <p align="center">
@@ -138,7 +138,7 @@ Auf der  [Github](https://github.com/hyperion-project/hyperion.ng/releases) Seit
 
 **II. A. 1. Abhängigkeiten**
 
-Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-1-abh%C3%A4ngigkeiten).
+Die Abhängigkeiten installieren. Aber auf die Abhängigkeiten der gewünschten Installation achten. Siehe [I. A](https://github.com/dan-froe/git4Hyperion#i-a-1-abh%C3%A4ngigkeiten).
 
 
 &nbsp;
@@ -165,7 +165,7 @@ Es soll Alpha 8 installiert werden. Daher `--branch 2.0.0-alpha.8`.
 &nbsp;
 **II. A. 3. Kompilieren**
 
-Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#i-a-3-kompilieren).
+Als nächstes werden die auf `git clone` folgenden Befehle aus der normalen Installation verwendet. Siehe [I. C](https://github.com/dan-froe/git4Hyperion#i-a-3-kompilieren).
 
 
 &nbsp;
@@ -278,7 +278,7 @@ Das PR ist nun unter `/home/pi/hyperion_prNUMMER` angelegt, hier `/home/pi/hyper
 &nbsp;
 ## **IV. Updates**
 
-Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iv-b-update-in-einem-schritt) und Alternativen [IV.C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen).
+Für Update in einem Schritt siehe [IV.B](https://github.com/dan-froe/git4Hyperion#iv-b-update-in-einem-schritt) und Alternativen [IV.C](https://github.com/dan-froe/git4Hyperion/tree/Pictures#IV-c-Alternativen).
 
 
 &nbsp;
@@ -321,7 +321,7 @@ Alles auf einmal, die Commits holen und zusammenführen:
 
 <pre><code>sudo git pull https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
 
-Dann wieder kompilieren [I. A. 3](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren).
+Dann wieder kompilieren [I. A. 3](https://github.com/dan-froe/git4Hyperion#I-a-3-kompilieren).
 
 
 &nbsp;
@@ -337,7 +337,7 @@ Man kann entweder das Verzeichnis umbenennen, zB
 
 <pre><code>sudo mv hyperion hyperion_old</code></pre>
 
-oder bei Methode I. das Repository Verzeichnis ändern siehe [I. A. 3](https://github.com/dan-froe/git4Hyperion/blob/Pictures/README.md#i-a-2-download-des-repository).
+oder bei Methode I. das Repository Verzeichnis ändern siehe [I. A. 3](https://github.com/dan-froe/git4Hyperion#i-a-2-download-des-repository).
 
 
 &nbsp;
@@ -352,7 +352,7 @@ Zu Bestimmten Commits vor oder zurück gehen.
 &nbsp;
 **V. A. Commit per Hash identifizieren** 
 
-Um zu einem bestimmten Commit siehe [III. A](https://github.com/dan-froe/git4Hyperion/tree/Pictures#iii-a-pull-requests-und-commits) zurück zu gehe, brauchen wir den Hash (ID des Commit). Um den Hash der Commits anzusehen:
+Um zu einem bestimmten Commit siehe [III. A](https://github.com/dan-froe/git4Hyperion#iii-a-pull-requests-und-commits) zurück zu gehe, brauchen wir den Hash (ID des Commit). Um den Hash der Commits anzusehen:
 
 <pre><code>sudo git log</code></pre>
 
@@ -382,7 +382,7 @@ Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beisp
 &nbsp;
 **V. C. Kompilieren**
 
-Die Befehle ab Kompilieren ausführen siehe [I. A. 3](https://github.com/dan-froe/git4Hyperion/tree/Pictures#I-a-3-kompilieren). Es wird bis zum Commit installiert.
+Die Befehle ab Kompilieren ausführen siehe [I. A. 3](https://github.com/dan-froe/git4Hyperion#I-a-3-kompilieren). Es wird bis zum Commit installiert.
 
 
 &nbsp;
