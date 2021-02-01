@@ -91,12 +91,14 @@ Dieser Befehl klont das Github Repository auf den Pi. Der letzte Befehl **hyperi
 &nbsp;
 #### **I. A. 3. Kompilieren**
 
+##### a) 
 Als nächstes wechseln wir in das erstellte Verzeichnis und erstellen dann ein weiteres, "build". Danach nach "build" wechseln. 
 
 <pre><code>cd hyperion
 sudo mkdir build
 cd build</code></pre>
 
+##### b) 
 Die nächsten 2 Befehle kompilieren Hyperion:
 
 <pre><code>sudo cmake -DCMAKE_BUILD_TYPE=Release ..
