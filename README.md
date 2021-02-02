@@ -32,20 +32,20 @@
 *III. A. Pull Requests und Commits* <br/> 
 *III. B. Pull Requests* <br/> 
 *III. B. 1. Pull Requests vom Server holen* <br/> 
-*III. B. 2. PR laden und [kompilieren I. A 3.](README.md#i-a-3-kompilieren)* <br/> 
+*III. B. 2. PR laden und [kompilieren I. A 3. b)](README.md#b)* <br/> 
 *III. B. 3. Rückgängig machen (undo)* <br/> 
 *III. C. Einfaches Skript* <br /> <br /> 
 **[IV. Updates](README.md#IV-Updates)** <br/> 
 *IV. A. Update in Einzelschritten* <br/> 
 *IV. A. 1. Die aktuellen [Commits](README.md#iii-a-pull-requests-und-commits) holen* <br/> 
 *IV. A. 2. Commits und Repository zusammenführen* <br/> 
-*IV. A. 3. Kompilieren siehe [I. A 3.](README.md#i-a-3-kompilieren)* <br/> 
+*IV. A. 3. Kompilieren siehe [I. A 3. b)](README.md#b)* <br/> 
 *IV. B. Update in einem Schritt* <br/> 
 *IV. C. Alternativen* <br /> <br /> 
 **[V. Rückschritte (Undo)](README.md#v-r%C3%BCckschritte-undo)** <br/> 
 *V. A. Commit per Hash identifizieren* <br/> 
 *V. B. Zum Commit/Hash springen* <br/> 
-*V. C. Kompilieren [I. A. 3.](README.md#i-a-3-kompilieren)* <br /> <br /> 
+*V. C. Kompilieren [I. A. 3. b)](README.md#b)* <br /> <br /> 
 **[VI. Als Systemd einrichten](README.md#VI-systemd-einrichten)** <br/> 
 *VI. A. Systemd Datei einrichten* <br/> 
 *VI. A. 1. hyperiond@&#8203;pi.service* <br/> 
@@ -248,7 +248,7 @@ Nun holen wir uns die Informationen für PR **1164**. Der Befehl `pull/XXX/head:
 
 <pre><code>sudo git checkout pr1164</code></pre>
 
-… und führen die Befehle ab kompilieren aus. Hyperion ist nun mit dem PR installiert.
+… und kompilieren die Daten, siehe [I. A. 3. b)](README.md#b). Hyperion ist nun mit dem PR installiert.
 
 
 &nbsp;
@@ -384,7 +384,7 @@ Wir benötigen nur den Anfang, mind 5 Zeichen. Bis der Hash eindeutig ist. Beisp
 &nbsp;
 **V. C. Kompilieren**
 
-Die Befehle ab Kompilieren ausführen siehe [I. A. 3. ](README.md#I-a-3-kompilieren). Es wird bis zum Commit installiert.
+Die Befehle ab Kompilieren ausführen siehe [I. A. 3. b)](README.md#b). Es wird bis zum Commit installiert.
 
 
 &nbsp;
