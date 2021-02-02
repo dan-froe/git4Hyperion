@@ -128,7 +128,7 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 &nbsp;
 **I. A. 4. Erreichbarkeit**
 
-Hyperion ist über die IP des Pi und Port 8090 im Browser erreichbar, [`raspberrypi:8090`](https://raspberrypi:8090). Hyperbian ist über [`HyperBian:8090`](https://HyperBian:8090) zu erreichen. 
+Hyperion ist über die IP des Pi und Port 8090 im Browser erreichbar, [`raspberrypi:8090`](http://raspberrypi:8090). Hyperbian ist über [`HyperBian:8090`](http://HyperBian:8090) zu erreichen. 
 
 
 &nbsp;
