@@ -121,7 +121,10 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 
 
 &nbsp;
-**I. A. 4. Uninstall (aus dem System entfernen)
+
+
+&nbsp;
+**I. A. 4. Uninstall (aus dem System entfernen)**
 
 Um die Aktion `sudo make install/strip` rückgängig zu machen, muss folgender Befehl ausgeführt werden:
 
