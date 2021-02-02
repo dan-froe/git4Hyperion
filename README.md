@@ -21,7 +21,8 @@
 *I. A. 1. Abhängigkeiten* <br/> 
 *I. A. 2. Download* <br/> 
 *I. A. 3. Kompilieren* <br/> 
-*I. A. 4. Uninstall (aus dem System)* <br/> 
+*I. A. 4. Erreichbarkeit/Webinterface* <br/> 
+*I. A. 5. Uninstall (aus dem System)* <br/> 
 *I. B. Installation per .deb Packet siehe [II. B. 1.](README.md#ii-b-1-installieren-der-deb-dateien)* <br /> <br /> 
 **[II. Frühere Version installieren](README.md#II-Bestimmte-Version-installieren)** <br/> 
 *II. A. 1. Abhängigkeiten siehe [I. A. 1.](README.md#i-a-1-abh%C3%A4ngigkeiten)* <br/> 
@@ -108,11 +109,12 @@ sudo make -j $(nproc)</code></pre>
 Hyperion ist jetzt funktionsfähig. 
 
 Allerdings muss man hyperiond im Verzeichnis ausführen, hier
-`./home/pi/hyperion/build/bin/hyperiond`
+`.~/hyperion/build/bin/hyperiond`
 
 Hyperion läuft nun in der SSH Session und wird beendet, wenn die Session geschlossen wird. 
-Wenn Hyperion im Hintergrund weiterlaufen soll `./home/pi/hyperion/build/hyperiond &`. 
+Wenn Hyperion im Hintergrund weiterlaufen soll `.~/hyperion/build/hyperiond &`. 
 
+##### c) 
 Der letzte Befehl installiert Hyperion in das System und ist nun ohne Verzeichnis ausführbar. Er läuft aber noch nicht als Prozess beim Booten:
 
 <pre><code>sudo make install/strip</code></pre>
@@ -124,7 +126,16 @@ Man kann nun Hyperion als systemd, crontab, rc.local etc einrichten. Für system
 
 
 &nbsp;
-**I. A. 4. Uninstall (aus dem System entfernen)**
+***I. A. 4. Erreichbarkeit**
+
+Hyperion ist über die IP des Pi und Port 8090 im Browser erreichbar, [`raspberrypi:8090`](raspberrypi:8090). Hyperbian ist über `HyperBian:8090` zu erreichen. 
+
+
+&nbsp;
+
+
+&nbsp;
+**I. A. 5. Uninstall (aus dem System entfernen)**
 
 Um die Aktion `sudo make install/strip` rückgängig zu machen, muss folgender Befehl ausgeführt werden:
 
