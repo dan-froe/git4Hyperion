@@ -109,10 +109,10 @@ sudo make -j $(nproc)</code></pre>
 Hyperion ist jetzt funktionsfähig. 
 
 Allerdings muss man hyperiond im Verzeichnis ausführen, hier
-`.~/hyperion/build/bin/hyperiond`
+`~/hyperion/build/bin/hyperiond`
 
 Hyperion läuft nun in der SSH Session und wird beendet, wenn die Session geschlossen wird. 
-Wenn Hyperion im Hintergrund weiterlaufen soll `.~/hyperion/build/hyperiond &`. 
+Wenn Hyperion im Hintergrund weiterlaufen soll `~/hyperion/build/hyperiond &`. 
 
 ##### c) 
 Der letzte Befehl installiert Hyperion in das System und ist nun ohne Verzeichnis ausführbar. Er läuft aber noch nicht als Prozess beim Booten:
