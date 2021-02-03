@@ -346,7 +346,7 @@ Alles auf einmal, die Commits holen und zusammenführen:
 
 <pre><code>sudo git pull https://github.com/hyperion-project/hyperion.ng.git master</code></pre>
 
-Dann wieder kompilieren [I. A. 3](README.md#I-a-3-kompilieren).
+Dann wieder kompilieren [I. A. 3. b)](README.md#b).
 
 
 &nbsp;
