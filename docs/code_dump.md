@@ -54,3 +54,15 @@ wget -O /dev/null --post-data '{"command":"componentstate","componentstate":{"co
 
 curl -X POST -i http://localhost:8090/json-rpc --data '{"command": "serverinfo", "tan":1}'
 
+
+Aus:
+
+sudo hyperion-remote -c black
+sudo hyperion-remote -I NameInstanz -c black
+exit
+
+An:
+
+sudo hyperion-remote --clearall
+sudo hyperion-remote -I NameInstanz --clearall
+exit
