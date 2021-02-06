@@ -43,3 +43,14 @@ sudo nano /etc/Profile.d
 
 sleep 2
 sudo /usr/bin/wget --post-file=./instanzen.json --header=Content-Type:application/json localhost:8090/json-rpc & 
+
+
+
+wget -O /dev/null --post-data '{"command" : "instance","subcommand" : "startInstance","instance" : 1}' --header=Content-Type:application/json localhost:8090/json-rpc
+
+wget -O /dev/null --post-data '{"command" : "instance","subcommand" : "switchTo","instance" : 1}' --header=Content-Type:application/json localhost:8090/json-rpc
+
+wget -O /dev/null --post-data '{"command":"componentstate","componentstate":{"component":"LEDDEVICE","state":true}}' --header=Content-Type:application/json localhost:8090/json-rpc
+
+curl -X POST -i http://localhost:8090/json-rpc --data '{"command": "serverinfo", "tan":1}'
+
