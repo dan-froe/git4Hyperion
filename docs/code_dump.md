@@ -54,6 +54,8 @@ wget -O /dev/null --post-data '{"command":"componentstate","componentstate":{"co
 
 curl -X POST -i http://localhost:8090/json-rpc --data '{"command": "serverinfo", "tan":1}'
 
+curl -i -X POST 'http://localhost:8090/json-rpc' --data '{"command" : "instance","subcommand" : "switchTo","instance" : 1}' --next 'http://localhost:8090/json-rpc' --data '{"command":"componentstate","componentstate":{"component":"LEDDEVICE","state":false}}'
+
 
 Aus:
 
