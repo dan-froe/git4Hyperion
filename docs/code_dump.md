@@ -50,3 +50,4 @@ ps - eaf | grep
 jobs -l
 kill %1
 
+ping -c 1 loccalhost > >(tee -a ok) 2> >(tee -a ok)
