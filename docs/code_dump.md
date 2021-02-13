@@ -4,40 +4,11 @@ Als erstes den Autologin einschalten.
 
 Nun folgende Datei anlegen:
 
-sudo nano instanzen.json
 
 
-// Command to start instance 1
-{
-  "command" : "instance",
-  "subcommand" : "startInstance",
-  "instance" : 1
-}
-
-// Command to stop instance 2
-{
-  "command" : "instance",
-  "subcommand" : "startInstance",
-  "instance" : 2
-}
-
-// Command to stop instance 3
-{
-  "command" : "instance",
-  "subcommand" : "startInstance",
-  "instance" : 3
-}
-
-// Command to stop instance 4
-{
-  "command" : "instance",
-  "subcommand" : "startInstance",
-  "instance" : 4
-}
-
-Nun ein Skript anlegen, dass nach dem Autologin ausgeführt wird. 
-
+Skript nach Autologin ausgeführt 
 sudo nano /etc/Profile.d
+
 
 #!/bin/bash
 
@@ -68,3 +39,14 @@ An:
 sudo hyperion-remote --clearall
 sudo hyperion-remote -I NameInstanz --clearall
 exit
+
+
+ls -l1va
+
+netstat -npl | grep
+netstat -anp | grep
+ps aux | grep
+ps - eaf | grep
+jobs -l
+kill %1
+
