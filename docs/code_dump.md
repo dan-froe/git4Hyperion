@@ -51,3 +51,5 @@ jobs -l
 kill %1
 
 ping -c 1 loccalhost > >(tee -a ok) 2> >(tee -a ok)
+
+nmap -p 80 example.com
