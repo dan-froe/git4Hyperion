@@ -55,3 +55,5 @@ ping -c 1 loccalhost > >(tee -a ok) 2> >(tee -a ok)
 nmap -p 80 example.com
 
 raspi-gpio set 20 dl 
+
+Kernel module lsmod
