@@ -58,4 +58,6 @@ raspi-gpio set 20 dl
 
 Kernel module lsmod
 
- curl https://api.github.com/repos/hyperion-project/hyperion.ng/releases 2>&1 | grep "browser_download_url.*Hyperion-.*armv7l.deb" | head -n1 | cut -d ":" -f 2,3 | tr -d \"  | wget -i -
+curl https://api.github.com/repos/hyperion-project/hyperion.ng/releases 2>&1 | grep "browser_download_url.*Hyperion-.*armv7l.deb" | head -n1 | cut -d ":" -f 2,3 | tr -d \"  | wget -i -
+
+curl -s https://api.github.com/repos/Hyperion-Project/Hyperion.ng
