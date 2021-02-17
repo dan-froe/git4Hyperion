@@ -61,3 +61,11 @@ Kernel module lsmod
 curl https://api.github.com/repos/hyperion-project/hyperion.ng/releases 2>&1 | grep "browser_download_url.*Hyperion-.*armv7l.deb" | head -n1 | cut -d ":" -f 2,3 | tr -d \"  | wget -i -
 
 curl -s https://api.github.com/repos/Hyperion-Project/Hyperion.ng
+
+Interactive Script
+
+bash <(wget -qO- http://website.com/my-script.sh)
+
+Interactive Script root
+
+sudo su -c "bash <(wget -qO- http://website.com/my-script.sh)" root
