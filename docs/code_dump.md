@@ -69,3 +69,5 @@ bash <(wget -qO- http://website.com/my-script.sh)
 Interactive Script root
 
 sudo su -c "bash <(wget -qO- http://website.com/my-script.sh)" root
+
+printf %"$COLUMNS"s |tr " " "-"
