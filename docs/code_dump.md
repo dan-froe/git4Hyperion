@@ -73,3 +73,5 @@ sudo su -c "bash <(wget -qO- http://website.com/my-script.sh)" root
 printf %"$COLUMNS"s |tr " " "-"
 
 find $HOME -name "hyperiond" | grep /build/bin/hyperiond | sed 's/\/build\/bin\/hyperiond//g' && test $(find $HOME -name HyperionConfig.h.in)
+
+wget -O - https://raw.githubusercontent.com/dan-froe/BASH/overhaul/hyperion_auto/installation.sh | bash
