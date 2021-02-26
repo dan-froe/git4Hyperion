@@ -75,3 +75,5 @@ printf %"$COLUMNS"s |tr " " "-"
 find $HOME -name "hyperiond" | grep /build/bin/hyperiond | sed 's/\/build\/bin\/hyperiond//g' && test $(find $HOME -name HyperionConfig.h.in)
 
 wget -O - https://raw.githubusercontent.com/dan-froe/BASH/overhaul/hyperion_auto/installation.sh | bash
+
+bash <(wget -qO - https://raw.githubusercontent.com/dan-froe/BASH/master/script_maker/script_maker_hyper.sh
