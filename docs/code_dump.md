@@ -27,6 +27,7 @@ curl -X POST -i http://localhost:8090/json-rpc --data '{"command": "serverinfo",
 
 curl -i -X POST 'http://localhost:8090/json-rpc' --data '{"command" : "instance","subcommand" : "switchTo","instance" : 1}' --next 'http://localhost:8090/json-rpc' --data '{"command":"componentstate","componentstate":{"component":"LEDDEVICE","state":false}}'
 
+curl -i -X POST 'http://localhost:8090/json-rpc' --data '{"command":"effect","effect":{"name":"Rainbow swirl"},"duration":5000,"priority":50,"origin":"My Fancy App"}'
 
 Aus:
 
