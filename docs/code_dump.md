@@ -78,3 +78,6 @@ find $HOME -name "hyperiond" | grep /build/bin/hyperiond | sed 's/\/build\/bin\/
 wget -O - https://raw.githubusercontent.com/dan-froe/BASH/overhaul/hyperion_auto/installation.sh | bash
 
 bash <(wget -qO - https://raw.githubusercontent.com/dan-froe/BASH/master/script_maker/script_maker_hyper.sh) 
+
+# cut from file
+cat mycron | sed -i s/.*instance.sh.*// mycron
