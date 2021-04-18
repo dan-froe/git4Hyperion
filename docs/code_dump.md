@@ -84,3 +84,4 @@ cat mycron | sed -i s/.*instance.sh.*// mycron
 
 # Websocket to file
 echo "{"lv":true}" | websocat ws://wled/ws -n --text writefile:ok &
+echo '{"command":"serverinfo","subscribe":["components-update"],"tan":1}' | websocat ws://192.168.178.39:8090 -n
