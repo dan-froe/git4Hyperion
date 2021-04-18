@@ -81,3 +81,6 @@ bash <(wget -qO - https://raw.githubusercontent.com/dan-froe/BASH/master/script_
 
 # cut from file
 cat mycron | sed -i s/.*instance.sh.*// mycron
+
+# Websocket to file
+echo "{"lv":true}" | websocat ws://wled/ws -n --text writefile:ok &
