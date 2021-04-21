@@ -85,3 +85,15 @@ cat mycron | sed -i s/.*instance.sh.*// mycron
 # Websocket to file
 echo "{"lv":true}" | websocat ws://wled/ws -n --text writefile:ok &
 echo '{"command":"serverinfo","subscribe":["components-update"],"tan":1}' | websocat ws://192.168.178.39:8090 -n
+
+
+# Hyperion Service check
+#########################################################################
+#check if hyperiond is running
+while [[ $var != "active(running)" ]] && [[ $i < "4" ]]
+do	
+	i=$(($i+1))
+	var=$(systemctl status "hyperion*" | grep 'active (running)' | sed -e 's/Active://' -e 's/since.*ago//' | tr -d " ")
+	sleep 5
+done
+#########################################################################
